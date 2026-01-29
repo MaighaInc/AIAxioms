@@ -1,0 +1,114 @@
+Hello guys, welcome back to the channel.
+
+Today we are finishing our classical AI section
+with one of the most important algorithms ever created.
+
+Today’s topic is:
+A STAR PATHFINDING ALGORITHM.
+
+A star, written as A star,
+is used to find the shortest path
+between two points.
+
+It is widely used in:
+video games,
+robot navigation,
+GPS systems,
+and map applications.
+
+Now let us understand the problem.
+
+Imagine a robot inside a grid.
+Some cells are blocked.
+Some cells are free.
+
+The robot has a starting point
+and a destination.
+
+The goal is to reach the destination
+using the shortest possible path
+without hitting obstacles.
+
+A star solves this problem
+using two ideas:
+cost so far
+and estimated cost to the goal.
+
+The formula used is:
+f equals g plus h.
+
+Here,
+g is the cost from the start to the current node.
+h is the heuristic estimate
+from the current node to the goal.
+
+The heuristic is a guess,
+but a smart one.
+
+In our example,
+we use Manhattan distance,
+which works well for grid movement.
+
+Now let us look at the code.
+
+We created a class called AStar.
+
+The constructor takes:
+the grid,
+the start position,
+and the goal position.
+
+The heuristic function calculates
+the Manhattan distance.
+
+The get_neighbors function
+returns all valid neighboring cells
+that are not blocked.
+
+The find_path function
+implements the A star algorithm.
+
+We use a priority queue
+to always expand the node
+with the lowest estimated cost.
+
+We store where each node came from
+so that we can reconstruct the path later.
+
+When the goal is reached,
+we reconstruct the path
+by moving backward from the goal
+to the start.
+
+The final output
+is the optimal path.
+
+A star is guaranteed to find
+the shortest path
+as long as the heuristic is admissible.
+
+That means the heuristic
+never overestimates the distance.
+
+Now let us talk about why A star is important.
+
+Unlike brute-force search,
+A star is efficient.
+
+It does not explore unnecessary paths.
+
+It combines intelligence
+with optimality.
+
+This algorithm represents
+true decision-making AI.
+
+With this,
+we have completed the core classical AI section.
+
+In the next set of videos,
+we will move to machine learning using libraries
+and real-world datasets.
+
+Thank you for watching.
+See you in the next video.

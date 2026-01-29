@@ -1,0 +1,106 @@
+Hello guys, welcome back to the channel.
+
+So far, we have learned models
+that learn using gradients and errors.
+
+Today we are learning something
+completely different.
+
+Today’s topic is:
+GENETIC ALGORITHM OPTIMIZER.
+
+Genetic algorithms are inspired
+by natural evolution.
+
+Instead of asking
+how to reduce error,
+genetic algorithms ask:
+Which solutions survive?
+
+Now let us understand the idea.
+
+In nature,
+organisms that are better adapted
+survive and reproduce.
+
+Genetic algorithms copy this idea.
+
+Each possible solution
+is treated as an individual.
+
+A group of individuals
+is called a population.
+
+Each individual is evaluated
+using a fitness function.
+
+Better individuals
+have higher chances to survive.
+
+Now let us look at the code.
+
+We created a class called GeneticAlgorithm.
+
+Inside the constructor,
+we define population size,
+number of generations,
+and mutation rate.
+
+The fitness function defines
+how good a solution is.
+
+In our example,
+we want to maximize:
+minus x squared plus 10.
+
+The best value of x
+is close to zero.
+
+Now the algorithm starts
+by creating a random population.
+
+Then for each generation,
+we select the best individuals.
+
+These are the parents.
+
+We then create new individuals
+using crossover and mutation.
+
+In this simplified example,
+crossover just copies the parent.
+
+Mutation introduces randomness
+by slightly changing the value.
+
+This randomness is very important.
+
+Without mutation,
+the algorithm would get stuck.
+
+You will notice that
+as generations increase,
+the fitness improves.
+
+This means the population is evolving.
+
+Genetic algorithms are powerful
+because they do not require gradients.
+
+They work even when:
+the function is not differentiable,
+the search space is discrete,
+or the problem is very complex.
+
+However,
+genetic algorithms can be slow.
+
+They are best used
+when other optimization methods fail.
+
+In the next video,
+we will learn A-star pathfinding,
+which is a search-based AI algorithm.
+
+Thank you for watching.
+See you in the next video.

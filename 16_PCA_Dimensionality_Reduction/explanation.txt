@@ -1,0 +1,117 @@
+Hello guys, welcome back to the channel.
+
+In the previous set of videos,
+we focused on supervised learning,
+where models learn using labeled data.
+
+Today we are moving to a new concept.
+
+Today’s topic is:
+PCA – PRINCIPAL COMPONENT ANALYSIS.
+
+PCA is a dimensionality reduction technique.
+
+Before we understand PCA,
+let us understand the problem.
+
+Real-world datasets often have
+many features.
+
+Too many features cause problems like:
+slow training,
+overfitting,
+high memory usage,
+and difficulty in visualization.
+
+PCA solves this problem
+by reducing the number of features
+without losing much information.
+
+Now here is the most important idea.
+
+PCA does NOT select features.
+It creates new features.
+
+These new features are called
+principal components.
+
+Each principal component
+is a combination of original features.
+
+Now let us look at the dataset.
+
+We use the Iris dataset,
+which has four features.
+
+We want to reduce these
+four features into two.
+
+Before applying PCA,
+we must standardize the data.
+
+This is very important.
+
+If features are not standardized,
+PCA will give incorrect results.
+
+That is why we use StandardScaler.
+
+Now let us apply PCA.
+
+We tell PCA to create
+two principal components.
+
+The output is a dataset
+with only two columns.
+
+This means we reduced the dimension
+from four to two.
+
+Now let us talk about explained variance.
+
+Explained variance tells us
+how much information
+each principal component contains.
+
+In our example,
+the first two components together
+retain more than 95 percent
+of the original information.
+
+This means very little information
+was lost during compression.
+
+Now let us look at PCA components.
+
+Each component shows
+how much each original feature
+contributes to that component.
+
+This helps us understand
+which features are most important.
+
+Now when should you use PCA?
+
+You should use PCA when:
+you have many numerical features,
+features are correlated,
+you want faster training,
+or you want to visualize data.
+
+When should you avoid PCA?
+
+Avoid PCA when:
+feature interpretability is critical,
+or features already have clear meaning.
+
+PCA is commonly used
+before classification,
+clustering,
+and visualization.
+
+In the next video,
+we will move to K-Means clustering,
+which is an unsupervised learning algorithm.
+
+Thank you for watching.
+See you in the next video.

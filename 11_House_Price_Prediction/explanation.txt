@@ -1,0 +1,86 @@
+Hello guys, welcome back to the channel.
+
+Now we are officially entering
+real-world machine learning.
+
+So far, we implemented everything from scratch.
+That helped us understand how AI works internally.
+
+But in real projects,
+we use powerful libraries.
+
+Today’s topic is:
+HOUSE PRICE PREDICTION USING SCIKIT-LEARN.
+
+This is one of the most common
+machine learning regression problems.
+
+The goal is simple:
+Predict the price of a house
+based on its features.
+
+In our example,
+we use three features:
+house size in square feet,
+number of bedrooms,
+and age of the house.
+
+The output is the house price
+in thousands.
+
+Now let us look at the workflow.
+
+Step one is preparing the dataset.
+We store features in X
+and prices in y.
+
+Step two is splitting the data.
+We divide data into training and testing sets.
+This helps us evaluate the model honestly.
+
+Step three is training the model.
+We use Linear Regression from scikit-learn.
+The library automatically learns
+the best coefficients.
+
+Step four is prediction.
+We use the trained model
+to predict prices on unseen data.
+
+Step five is evaluation.
+
+We calculate RMSE,
+which tells us how much error
+the model makes on average.
+
+We also calculate R2 score,
+which tells us how well the model fits the data.
+
+Now let us talk about feature coefficients.
+
+Each coefficient tells us
+how much that feature affects price.
+
+For example:
+If size coefficient is high,
+it means larger houses cost more.
+
+Finally,
+we test the model
+by predicting the price
+of a new house.
+
+This entire pipeline
+is exactly how real ML systems work.
+
+House price prediction is widely used
+in real estate platforms,
+bank loan approvals,
+and property analytics.
+
+In the next video,
+we will move to text classification
+and build a spam email classifier.
+
+Thank you for watching.
+See you in the next video.

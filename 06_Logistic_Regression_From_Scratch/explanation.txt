@@ -1,0 +1,117 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned about linear regression,
+which predicts continuous values.
+
+Today we are learning something slightly different,
+but extremely important.
+
+Today’s topic is:
+LOGISTIC REGRESSION FROM SCRATCH.
+
+Logistic regression is used
+when the output is not a number,
+but a category.
+
+For example:
+Pass or Fail,
+Yes or No,
+Spam or Not Spam.
+
+Now let us understand
+why we cannot use linear regression
+for classification.
+
+Linear regression can predict
+any value from minus infinity to plus infinity.
+
+But probabilities must be between 0 and 1.
+
+So logistic regression solves this problem
+using a function called the sigmoid function.
+
+The sigmoid function takes any number
+and converts it into a value between 0 and 1.
+
+This value represents probability.
+
+Now let us look at the formula.
+
+First, we calculate:
+z equals w times x plus b.
+
+Then we apply the sigmoid function:
+probability equals sigmoid of z.
+
+If the probability is greater than or equal to 0.5,
+we predict class 1.
+Otherwise, class 0.
+
+Now let us look at the code.
+
+We created a class called LogisticRegression.
+
+Inside the constructor,
+we define learning rate and number of epochs.
+
+The sigmoid function converts numbers
+into probabilities.
+
+The predict_probability function
+returns the probability of class 1.
+
+The predict function converts probability
+into a class label.
+
+The train function is where learning happens.
+
+For each data point,
+we calculate the predicted probability.
+
+Then we calculate loss
+using log loss,
+also called binary cross entropy.
+
+This loss punishes confident wrong predictions
+more than small mistakes.
+
+Then we calculate gradients
+and update the weight and bias.
+
+You will notice that
+the loss keeps decreasing.
+
+This means the model is learning.
+
+After training,
+we print the learned parameters.
+
+Then we test the model
+with a new value.
+
+The output shows
+both probability and predicted class.
+
+This is very important in real applications.
+
+For example,
+in medical diagnosis,
+probability matters more than just yes or no.
+
+Logistic regression is widely used in:
+credit scoring,
+medical diagnosis,
+churn prediction,
+and spam detection.
+
+If you understand logistic regression deeply,
+you understand the foundation
+of classification in machine learning.
+
+In the next video,
+we will move to polynomial regression,
+where linear models learn curves.
+
+Thank you for watching.
+See you in the next video.

@@ -1,0 +1,92 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we discussed credit risk scoring,
+which is used in banking.
+
+Today we are moving to another
+very important business application.
+
+Today’s topic is:
+CUSTOMER CHURN PREDICTION.
+
+Customer churn means
+a customer leaving a service.
+
+For subscription-based companies,
+churn directly affects revenue.
+
+Acquiring a new customer
+is much more expensive
+than retaining an existing one.
+
+That is why churn prediction
+is extremely valuable.
+
+Now let us understand the data.
+
+We use the following features:
+how long the customer stayed,
+monthly charges,
+total charges,
+number of support calls,
+and contract type.
+
+The output is simple:
+1 means the customer churned.
+0 means the customer stayed.
+
+Now let us look at the code.
+
+First,
+we prepare the dataset using numpy.
+
+Then we split the data
+into training and testing sets.
+
+Next,
+we train a logistic regression model.
+
+Logistic regression is preferred here
+because it gives probabilities.
+
+After training,
+we make predictions
+on the test data.
+
+We evaluate the model using:
+accuracy,
+confusion matrix,
+and classification report.
+
+Now let us focus on probabilities.
+
+A churn probability of 0.8
+means the customer is very likely to leave.
+
+Businesses can use this information
+to offer discounts,
+improve service,
+or intervene early.
+
+Finally,
+we test the model
+with a new customer.
+
+The model outputs
+both probability and decision.
+
+Customer churn prediction
+is widely used in:
+telecom companies,
+streaming platforms,
+SaaS products,
+and banks.
+
+In the next video,
+we will use a famous dataset
+to learn multi-class classification
+using the Iris dataset.
+
+Thank you for watching.
+See you in the next video.
