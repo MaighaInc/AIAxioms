@@ -1,0 +1,141 @@
+Hello guys, welcome back to the channel.
+
+This video marks a very important milestone
+in our AI journey.
+
+Until now, we have learned machine learning.
+Today, we officially enter DEEP LEARNING.
+
+Our topic today is:
+FEEDFORWARD NEURAL NETWORK FROM SCRATCH USING NUMPY.
+
+No TensorFlow.
+No PyTorch.
+Only NumPy.
+
+This is intentional.
+
+If you understand this video properly,
+deep learning will never feel like magic again.
+
+Now first, what is a neural network?
+
+A neural network is inspired by
+the human brain.
+
+It is made up of neurons.
+
+Each neuron:
+receives inputs,
+multiplies them by weights,
+adds a bias,
+and passes the result
+through an activation function.
+
+Now let us understand the architecture.
+
+Our network has:
+an input layer,
+one hidden layer,
+and an output layer.
+
+Information flows in only one direction,
+from input to output.
+
+That is why it is called
+a FEEDFORWARD neural network.
+
+Now let us look at the code.
+
+We created a class called
+FeedForwardNeuralNetwork.
+
+In the constructor,
+we initialize weights and biases.
+
+Weights are initialized randomly.
+Biases are initialized to zero.
+
+Now let us talk about the activation function.
+
+We use the sigmoid function.
+
+Sigmoid converts any number
+into a value between 0 and 1.
+
+This allows us to interpret output
+as probability.
+
+Now comes forward propagation.
+
+Forward propagation is the process
+of making predictions.
+
+First,
+we multiply input with weights,
+add bias,
+and apply sigmoid.
+
+This produces hidden layer output.
+
+Then,
+we repeat the same process
+for the output layer.
+
+This gives us the final prediction.
+
+Now let us talk about learning.
+
+Learning happens using backpropagation,
+which we will study deeply
+in the next video.
+
+For now,
+understand this idea:
+
+The model compares its prediction
+with the actual value.
+
+The difference is called error.
+
+This error is used
+to update weights and biases
+so that the error becomes smaller.
+
+During training,
+you will see the loss decreasing.
+
+This means the network is learning.
+
+We test the network
+using an AND gate dataset.
+
+At first,
+predictions are random.
+
+But after training,
+the network correctly learns
+the AND logic.
+
+This is incredible.
+
+We did not write rules.
+The network learned them.
+
+This simple network
+is the foundation of:
+deep neural networks,
+CNNs,
+RNNs,
+and Transformers.
+
+In the next video,
+we will open the black box
+and deeply understand
+BACKPROPAGATION FROM SCRATCH.
+
+This is where deep learning
+truly begins.
+
+Thank you for watching.
+See you in the next video.

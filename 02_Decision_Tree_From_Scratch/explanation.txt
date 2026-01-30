@@ -1,94 +1,67 @@
 Hello everyone, welcome back to the channel.
 
-In the previous video,
-we discussed rule-based expert systems,
-where humans write all the rules manually.
+In the previous video, we discussed rule-based expert systems, where humans write all the rules manually.
 
 Today we are taking the next step in AI evolution.
 
-Our topic today is:
-DECISION TREE CLASSIFIER.
+Our topic today is: DECISION TREE CLASSIFIER.
 
-A decision tree is an AI model
-that learns rules automatically from data.
-
-Instead of humans writing rules,
-the machine decides what questions to ask.
+A decision tree is an AI model that learns rules automatically from data.
+Instead of humans writing rules, the machine decides what questions to ask.
 
 Let us understand this with an example.
 
-Suppose a company wants to predict
-whether a customer will buy a product.
+Suppose a company wants to predict whether a customer will buy a product.
 
-The company collects data like:
-age of the customer,
-income of the customer,
-and past buying behavior.
-
-From this data,
-the decision tree learns patterns.
+The company collects data like: 
+        age of the customer,
+        income of the customer,
+        and past buying behavior.
+From this data, the decision tree learns patterns.
 
 Now let us look at the Python code.
 
-We have a function called decision_tree_predict.
-This function takes two inputs:
-age and income.
+We have a function called decision_tree_predict. This function takes two inputs: age and income.
 
-The first condition checks:
-If age is less than 30,
-the model predicts No.
+The first condition checks: 
+        If age is less than 30,
+        the model predicts No.
 
 This is the root of the tree.
-In a decision tree,
-the first question is the most important one.
+        In a decision tree,
+        the first question is the most important one.
 
-If the age is greater than or equal to 30,
-we move to the next level.
+If the age is greater than or equal to 30, we move to the next level.
 
-Now the second condition checks income.
-If income is greater than or equal to 50,000,
-the model predicts Yes.
-Otherwise, it predicts No.
-
+Now the second condition checks income. If income is greater than or equal to 50,000,
+        the model predicts Yes.
+        Otherwise, it predicts No.
 Each if-else block represents a node in the tree.
 
 The top condition is the root node.
 The inner conditions are child nodes.
 The final outputs are leaf nodes.
 
-Now let us talk about how this is different
-from rule-based systems.
+Now let us talk about how this is different from rule-based systems.
 
-In rule-based systems,
-humans write the rules.
-
-In decision trees,
-the machine learns these rules from data.
+In rule-based systems, humans write the rules.
+In decision trees, the machine learns these rules from data.
 
 That is a very big shift in AI.
 
-Decision trees are easy to understand
-because the decisions can be traced step by step.
+Decision trees are easy to understand because the decisions can be traced step by step.
 
 However, decision trees also have limitations.
 
-If the tree becomes too deep,
-it starts memorizing data.
-This problem is called overfitting.
+If the tree becomes too deep, it starts memorizing data. This problem is called overfitting.
 
-To solve this,
-advanced models like Random Forest
-use many decision trees together.
+To solve this, advanced models like Random Forest  use many decision trees together.
 
-But understanding a single decision tree
-is very important before moving forward.
+But understanding a single decision tree is very important before moving forward.
 
-In the next video,
-we will talk about Naive Bayes,
-which uses probability instead of rules.
+In the next video, we will talk about Naive Bayes, which uses probability instead of rules.
 
-If you understand decision trees clearly,
-you are now officially learning machine learning.
+If you understand decision trees clearly, you are now officially learning machine learning.
 
 Thank you for watching.
 See you in the next video.

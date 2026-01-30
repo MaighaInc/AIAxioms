@@ -1,0 +1,101 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned about Random Forest,
+which combines many trees in parallel.
+
+Today we are learning
+another powerful ensemble technique.
+
+Today’s topic is:
+GRADIENT BOOSTING MODEL.
+
+The key idea of gradient boosting
+is very simple.
+
+Instead of training trees independently,
+it trains trees one after another.
+
+Each new tree focuses on
+correcting the mistakes
+made by previous trees.
+
+This is why it is called boosting.
+
+Now let us understand this intuitively.
+
+Imagine a teacher teaching a student.
+
+The first lesson covers basics.
+The student makes mistakes.
+
+The second lesson focuses
+only on those mistakes.
+
+The third lesson focuses
+on remaining weak areas.
+
+That is exactly how gradient boosting works.
+
+Now let us look at the code.
+
+We use a loan approval dataset,
+similar to the previous examples.
+
+First,
+we split the data
+into training and testing sets.
+
+Then we create
+a GradientBoostingClassifier.
+
+We define:
+number of trees,
+learning rate,
+and maximum depth.
+
+Learning rate controls
+how much each tree contributes.
+
+Smaller learning rates
+require more trees,
+but give better performance.
+
+After training,
+we make predictions
+on the test data.
+
+We evaluate the model using:
+accuracy,
+confusion matrix,
+and classification report.
+
+We also print feature importance.
+
+Just like Random Forest,
+gradient boosting tells us
+which features matter the most.
+
+Finally,
+we test the model
+with a new customer.
+
+The model outputs
+both prediction and probability.
+
+Gradient boosting is extremely powerful.
+
+Many state-of-the-art models
+like XGBoost, LightGBM, and CatBoost
+are based on this idea.
+
+If you understand gradient boosting,
+you understand one of the strongest
+machine learning techniques.
+
+In the next and final video,
+we will build a model evaluation dashboard
+to compare all our models visually.
+
+Thank you for watching.
+See you in the next video.

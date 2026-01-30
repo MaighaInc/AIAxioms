@@ -1,0 +1,106 @@
+Hello guys, welcome back to the channel.
+
+This is a very special video,
+because it is the final lesson
+of our entire AI and Machine Learning course.
+
+Today’s topic is:
+MODEL EVALUATION DASHBOARD.
+
+So far,
+we have built many machine learning models.
+
+But one very important question remains.
+
+How do we decide
+which model is better?
+
+This is where model evaluation comes in.
+
+In real-world projects,
+accuracy alone is not enough.
+
+Different models perform differently
+depending on the problem.
+
+Now let us understand the metrics.
+
+Accuracy tells us
+how many predictions were correct overall.
+
+Precision tells us
+how many predicted positives were actually correct.
+
+Recall tells us
+how many actual positives we correctly identified.
+
+F1 score is a balance
+between precision and recall.
+
+Now let us look at the code.
+
+We define a helper function
+called evaluate_model.
+
+This function takes a model
+and returns all important metrics.
+
+We then create a dataset
+for loan approval prediction.
+
+We split the data
+into training and testing sets.
+
+Next,
+we define multiple models.
+
+In our example,
+we use Logistic Regression
+and Random Forest.
+
+Each model is trained
+on the same training data.
+
+This is very important
+for fair comparison.
+
+Then we evaluate each model
+using the same test data.
+
+The results are printed
+in a dashboard-like format.
+
+This allows us to easily compare models.
+
+For example,
+Logistic Regression may be simpler
+and more interpretable.
+
+Random Forest may be more accurate
+and robust.
+
+The choice depends on the business problem.
+
+In regulated industries,
+interpretability may be more important.
+
+In performance-critical systems,
+accuracy may matter more.
+
+This is how real ML teams
+make decisions.
+
+With this final lesson,
+you now understand the entire ML lifecycle:
+from rules,
+to learning,
+to evaluation,
+and decision making.
+
+You are now fully equipped
+to teach AI,
+build projects,
+and explain concepts clearly.
+
+Thank you for completing this journey.
+See you in the next advanced series.

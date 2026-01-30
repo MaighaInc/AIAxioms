@@ -1,0 +1,117 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned about Autoencoders.
+
+Autoencoders compress data
+and reconstruct it.
+
+But today,
+we are going one level deeper.
+
+Today’s topic is:
+VARIATIONAL AUTOENCODER,
+also known as VAE.
+
+A Variational Autoencoder
+is not just a compression model.
+
+It is a generative model.
+
+This means it can create new data.
+
+Now let us understand
+why VAE is different.
+
+In a normal autoencoder,
+the latent space is arbitrary.
+
+There is no guarantee
+that nearby points
+produce meaningful outputs.
+
+In a VAE,
+the latent space is structured.
+
+Instead of learning a single value,
+the encoder learns a distribution.
+
+Specifically,
+it learns:
+a mean,
+and a variance.
+
+This means every input
+maps to a probability distribution,
+not a single point.
+
+Now let us understand the architecture.
+
+The encoder outputs:
+z_mean and z_log_variance.
+
+From these,
+we sample a latent vector.
+
+This sampling step
+is done using the
+reparameterization trick.
+
+This trick allows gradients
+to flow during training.
+
+Now let us look at the loss function.
+
+VAE loss has two parts.
+
+First is reconstruction loss.
+
+This ensures the output
+is similar to the input.
+
+Second is KL divergence loss.
+
+This forces the latent space
+to follow a normal distribution.
+
+This is extremely important.
+
+It ensures the latent space
+is smooth and continuous.
+
+Because of this,
+we can sample random points
+and generate new data.
+
+Now let us look at the code.
+
+We generate simple 2D data.
+
+The encoder compresses the data
+into a 2D latent space.
+
+The decoder reconstructs it.
+
+After training,
+we generate new data points
+by sampling from the latent space.
+
+These generated points
+look similar to the original data.
+
+VAEs are used in:
+image generation,
+anomaly detection,
+data augmentation,
+and representation learning.
+
+VAEs are the foundation
+for many modern generative models.
+
+In the next video,
+we will learn about
+Transfer Learning with ResNet,
+where we reuse powerful pretrained models.
+
+Thank you for watching.
+See you in the next video.
