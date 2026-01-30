@@ -1,0 +1,89 @@
+Hello guys, welcome back to the channel.
+
+So far in NLP,
+we learned tokenization,
+embeddings,
+POS tagging,
+and NER.
+
+Now we put everything together
+into a real application.
+
+Today’s topic is:
+SENTIMENT ANALYSIS SYSTEM.
+
+Sentiment analysis means
+understanding emotions in text.
+
+For example:
+reviews,
+tweets,
+comments,
+and feedback.
+
+Businesses use sentiment analysis
+to understand customer opinions.
+
+Now let us understand the approach.
+
+We use a simple idea:
+words carry sentiment.
+
+Words like love, amazing, happy
+usually indicate positive sentiment.
+
+Words like hate, terrible, bad
+usually indicate negative sentiment.
+
+Now let us look at the code.
+
+First,
+we tokenize the text.
+
+Then we count
+how often each word appears
+in positive and negative sentences.
+
+During training,
+we store word statistics
+for each sentiment.
+
+During prediction,
+we score each sentiment class.
+
+We add up the contribution
+of every word.
+
+The sentiment with the highest score
+is chosen.
+
+This is similar
+to Naive Bayes logic,
+but implemented manually.
+
+Now let us test the system.
+
+We give a new sentence.
+
+The model correctly predicts
+the sentiment.
+
+Even with this simple approach,
+the system works well
+for small datasets.
+
+Modern sentiment analysis systems
+use transformers like BERT.
+
+But the core idea remains the same:
+extract features,
+assign scores,
+and choose the best class.
+
+In the next video,
+we will move to text summarization,
+where machines learn
+to shorten documents intelligently.
+
+Thank you for watching.
+See you in the next video.

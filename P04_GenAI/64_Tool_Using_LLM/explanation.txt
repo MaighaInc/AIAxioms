@@ -1,0 +1,74 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned few-shot learning.
+
+Today we take a major step forward.
+
+Today’s topic is:
+TOOL-USING LLM.
+
+Modern LLMs do more than talk.
+
+They use tools.
+
+They calculate numbers.
+They search the web.
+They call APIs.
+They interact with databases.
+
+This is how LLMs become agents.
+
+Now let us understand the idea.
+
+The LLM first reads the user input.
+
+Then it decides:
+can I answer this myself,
+or do I need a tool?
+
+If a tool is required,
+the LLM calls it.
+
+The tool returns a result.
+
+The LLM then uses that result
+to produce a final response.
+
+This is exactly how ChatGPT
+uses tools internally.
+
+Now let us look at the code.
+
+We define a calculator tool.
+
+This tool knows how to evaluate
+math expressions.
+
+Then we define a ToolUsingLLM class.
+
+If the prompt contains math,
+the LLM extracts the expression
+and sends it to the calculator.
+
+The calculator returns the result.
+
+The LLM then formats the answer.
+
+This separation is very important.
+
+The LLM decides.
+The tool executes.
+
+This pattern is used everywhere in GenAI:
+autonomous agents,
+assistants,
+and workflow automation.
+
+In the next and final video,
+we will build a safety-filtered LLM.
+
+This ensures models behave responsibly.
+
+Thank you for watching.
+See you in the final video.

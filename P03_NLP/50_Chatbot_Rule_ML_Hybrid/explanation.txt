@@ -1,0 +1,127 @@
+Hello guys, welcome back to the channel.
+
+This is the final video
+of PART 3 — Natural Language Processing.
+
+Today we are building
+a complete chatbot.
+
+Today’s topic is:
+HYBRID CHATBOT — RULE + ML.
+
+This chatbot combines
+everything we have learned so far.
+
+Let us first understand
+why hybrid chatbots exist.
+
+Pure rule-based chatbots
+are fast and predictable.
+
+But they are limited.
+
+Pure machine learning chatbots
+are flexible,
+but harder to control.
+
+Hybrid chatbots
+combine the best of both worlds.
+
+Now let us understand the architecture.
+
+First,
+we check for rule-based responses.
+
+Simple greetings like
+hello,
+hi,
+thanks,
+and bye
+are handled using rules.
+
+Rules are very reliable
+for fixed patterns.
+
+Next,
+if no rule matches,
+we use ML-style logic.
+
+We use text similarity.
+
+The chatbot compares
+the user input
+with known questions.
+
+The closest match
+determines the response.
+
+This is similar to
+early intelligent chatbots
+used in customer support.
+
+Now let us look at the code.
+
+We define a set of rules.
+
+Then we define a knowledge base.
+
+Each entry has:
+a question,
+and an answer.
+
+When the user types a message,
+the chatbot first checks rules.
+
+If no rule matches,
+it calculates cosine similarity
+between the user input
+and known questions.
+
+If similarity is high,
+the chatbot returns the answer.
+
+If similarity is low,
+the chatbot says
+it did not understand.
+
+Now let us test the chatbot.
+
+We can greet it.
+We can ask questions.
+We can exit the conversation.
+
+This chatbot uses:
+tokenization,
+vectorization,
+cosine similarity,
+rules,
+and decision logic.
+
+This single project
+connects the entire NLP journey.
+
+From tokenizers,
+to embeddings,
+to similarity,
+to real systems.
+
+With this,
+you have completed
+PART 3 of the AI curriculum.
+
+You now understand
+how machines read,
+process,
+and respond to language.
+
+This is not the end.
+
+This is the foundation
+for advanced chatbots,
+voice assistants,
+and large language models.
+
+Thank you for completing
+this journey with me.
+
+See you in the next advanced series.

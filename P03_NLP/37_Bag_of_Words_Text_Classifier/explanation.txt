@@ -1,0 +1,110 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned how to tokenize text.
+
+Today we take the next step.
+
+Today’s topic is:
+BAG-OF-WORDS TEXT CLASSIFIER.
+
+Bag-of-Words is one of the oldest
+and most important ideas in NLP.
+
+Even modern models
+are built on the same foundation.
+
+Now let us understand the problem.
+
+Machines do not understand words.
+
+So we must convert text
+into numbers.
+
+Bag-of-Words does exactly that.
+
+It ignores grammar and word order
+and focuses only on
+word frequency.
+
+Now let us understand the idea.
+
+First,
+we build a vocabulary.
+
+The vocabulary contains
+all unique words
+from the training data.
+
+Next,
+each sentence is converted
+into a vector.
+
+Each position in the vector
+represents a word.
+
+The value at that position
+is how many times
+the word appears.
+
+This converts text
+into numbers.
+
+Now let us look at the code.
+
+We created a BagOfWordsClassifier
+from scratch.
+
+We tokenize text
+by converting it to lowercase
+and splitting by spaces.
+
+Then we build the vocabulary.
+
+Next,
+we count how many times
+each word appears
+for each class.
+
+We use a simple probability-based scoring
+to decide the class.
+
+This idea is similar
+to Naive Bayes,
+but implemented manually.
+
+Now let us test the model.
+
+We give a new sentence:
+win money offer.
+
+Words like win and money
+appear frequently in spam messages.
+
+So the classifier predicts Spam.
+
+Bag-of-Words is simple,
+fast,
+and effective for small problems.
+
+But it has limitations.
+
+It ignores word order
+and meaning.
+
+For example:
+dog bites man
+and
+man bites dog
+look the same.
+
+To fix this,
+we need better representations.
+
+In the next video,
+we will learn TF-IDF,
+which improves Bag-of-Words
+by weighting important words.
+
+Thank you for watching.
+See you in the next video.

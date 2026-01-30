@@ -1,0 +1,119 @@
+Hello guys, welcome back to the channel.
+
+This is one of the most important videos
+in the entire AI course.
+
+Today’s topic is:
+FINE-TUNING BERT.
+
+BERT changed the world of NLP.
+
+Before BERT,
+models read text left to right.
+
+But BERT reads text
+in both directions.
+
+This allows it to understand
+context much better.
+
+Now let us understand
+what BERT really is.
+
+BERT stands for
+Bidirectional Encoder Representations
+from Transformers.
+
+It is a transformer-based model
+trained on massive text data.
+
+BERT already understands language.
+
+So we do NOT train it from scratch.
+
+Instead,
+we fine-tune it.
+
+Fine-tuning means:
+slightly adjusting the model
+for our specific task.
+
+Now let us look at the problem.
+
+We want to perform
+sentiment analysis.
+
+Given a sentence,
+predict whether it is
+positive or negative.
+
+Now let us walk through the code.
+
+First,
+we load a pretrained tokenizer.
+
+The tokenizer converts text
+into tokens that BERT understands.
+
+This includes:
+token IDs,
+attention masks,
+and padding.
+
+Next,
+we create a dataset class.
+
+This allows the Trainer
+to load data properly.
+
+Then we load the pretrained BERT model.
+
+Notice something important.
+
+We specify num_labels as 2.
+
+This automatically adds
+a classification head
+on top of BERT.
+
+Now we define training arguments.
+
+We specify:
+number of epochs,
+batch size,
+and logging options.
+
+Then we use the Trainer API.
+
+This handles:
+training,
+backpropagation,
+and optimization for us.
+
+After training,
+we test the model
+with a new sentence.
+
+The model predicts sentiment correctly.
+
+This is extremely powerful.
+
+With just a few lines of code,
+we fine-tuned one of the strongest
+language models in the world.
+
+BERT is used in:
+search engines,
+chatbots,
+recommendation systems,
+and document analysis.
+
+In the next videos,
+we will go deeper
+into how transformers work internally.
+
+We will build attention
+and transformer blocks from scratch.
+
+Thank you for watching.
+See you in the next video.

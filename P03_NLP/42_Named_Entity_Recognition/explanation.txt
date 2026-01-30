@@ -1,0 +1,82 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned Part-of-Speech tagging.
+
+Now we move to a higher-level NLP task.
+
+Today’s topic is:
+NAMED ENTITY RECOGNITION,
+also called NER.
+
+NER is the task of identifying
+real-world entities in text.
+
+Examples of entities include:
+people,
+locations,
+organizations,
+dates,
+and monetary values.
+
+NER is extremely important.
+
+It is used in:
+search engines,
+resume parsing,
+chatbots,
+news analysis,
+and knowledge graphs.
+
+Now let us understand the idea.
+
+Given a sentence,
+we want to find
+which words refer to real objects.
+
+For example:
+John is a person.
+India is a location.
+OpenAI is an organization.
+
+Now let us look at the code.
+
+We build a simple NER system
+using rules.
+
+We maintain small lists of:
+person names,
+locations,
+and organizations.
+
+For each word in the sentence,
+we check which list it belongs to.
+
+If it matches a known entity,
+we assign a label.
+
+If it does not,
+we label it as O,
+which means outside any entity.
+
+This is a rule-based NER system.
+
+In real-world applications,
+NER systems use machine learning
+and deep learning models.
+
+But even those models
+follow the same idea:
+identify patterns that represent entities.
+
+NER builds on top of POS tagging.
+
+POS helps understand grammar,
+NER helps understand meaning.
+
+In the next video,
+we will combine what we learned
+to build a full sentiment analysis system.
+
+Thank you for watching.
+See you in the next video.

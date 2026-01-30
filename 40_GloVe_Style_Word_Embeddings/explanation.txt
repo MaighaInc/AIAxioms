@@ -1,0 +1,92 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned Word2Vec.
+
+Word2Vec learns word meaning
+using local context.
+
+Today we learn another
+important embedding method.
+
+Today’s topic is:
+GLOVE-STYLE WORD EMBEDDINGS.
+
+GloVe stands for
+Global Vectors for Word Representation.
+
+The key idea of GloVe is simple.
+
+Instead of predicting context,
+GloVe looks at
+how often words appear together
+across the entire corpus.
+
+This is called
+global co-occurrence statistics.
+
+Now let us understand the intuition.
+
+If two words
+often appear together,
+they are likely related.
+
+For example:
+deep and learning,
+nlp and language,
+king and queen.
+
+GloVe captures this relationship
+numerically.
+
+Now let us look at the code.
+
+First,
+we build a co-occurrence matrix.
+
+This matrix counts
+how many times
+word pairs appear together
+within a window.
+
+Next,
+we train the GloVe model.
+
+The model learns vectors
+so that the dot product
+matches the log of co-occurrence counts.
+
+This is very important.
+
+It means vector relationships
+encode statistical relationships.
+
+Unlike Word2Vec,
+GloVe does not predict words.
+
+It directly factorizes
+the co-occurrence matrix.
+
+This makes GloVe very stable
+and efficient for large corpora.
+
+After training,
+each word has an embedding.
+
+Words that appear in similar contexts
+have similar vectors.
+
+GloVe embeddings are widely used
+in:
+text classification,
+information retrieval,
+sentiment analysis,
+and question answering.
+
+In the next video,
+we will move from embeddings
+to linguistic structure
+by building a POS tagger.
+
+Thank you for watching.
+See you in the next video.

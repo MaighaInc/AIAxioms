@@ -1,0 +1,97 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a Markov chain text generator.
+
+That model looked only one step ahead.
+
+Today we move to neural networks.
+
+Today’s topic is:
+CHARACTER-LEVEL LANGUAGE MODEL.
+
+This is where modern text generation begins.
+
+Instead of predicting words,
+we predict characters.
+
+Why characters?
+
+Characters avoid tokenization issues
+and let the model learn spelling,
+punctuation,
+and structure.
+
+Now let us understand the approach.
+
+We take a small piece of text.
+
+We create a vocabulary of characters.
+
+Each character is converted
+into a numerical index.
+
+Then we create sequences.
+
+For example,
+given 10 characters,
+the model predicts the 11th.
+
+This is sequence prediction.
+
+Now let us look at the model.
+
+We use a Simple RNN layer.
+
+RNNs have memory.
+
+They remember previous characters
+while predicting the next one.
+
+After the RNN,
+we use a Dense layer with softmax.
+
+Softmax outputs probabilities
+for every possible character.
+
+During training,
+the model learns patterns like:
+which characters follow others.
+
+After training,
+we generate text.
+
+We start with a seed string.
+
+The model predicts the next character.
+
+We append it
+and feed it back to the model.
+
+This loop creates new text
+character by character.
+
+You will notice something important.
+
+The text is not copied.
+
+It is generated.
+
+It follows the style and structure
+of the training data.
+
+This is real generative behavior.
+
+Character-level models have limitations.
+
+They struggle with long-term meaning.
+
+To fix that,
+we move to larger context models.
+
+In the next video,
+we will build a
+GPT-style mini language model.
+
+Thank you for watching.
+See you in the next video.

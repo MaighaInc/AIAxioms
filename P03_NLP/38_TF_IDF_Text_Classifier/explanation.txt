@@ -1,0 +1,118 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned Bag-of-Words.
+
+Bag-of-Words counts words,
+but it treats all words equally.
+
+Today we fix that problem.
+
+Today’s topic is:
+TF-IDF TEXT CLASSIFIER.
+
+TF-IDF stands for:
+Term Frequency – Inverse Document Frequency.
+
+It is one of the most important
+ideas in classical NLP.
+
+Now let us understand the intuition.
+
+Some words appear everywhere.
+
+Words like:
+the,
+is,
+at,
+and.
+
+These words are not very informative.
+
+TF-IDF reduces the importance
+of such common words.
+
+At the same time,
+it increases the importance
+of rare but meaningful words.
+
+Now let us break TF-IDF into two parts.
+
+First is Term Frequency.
+
+Term Frequency measures
+how often a word appears
+in a document.
+
+Second is Inverse Document Frequency.
+
+IDF measures
+how rare a word is
+across all documents.
+
+If a word appears in many documents,
+its IDF is low.
+
+If a word appears in very few documents,
+its IDF is high.
+
+TF-IDF is simply:
+TF multiplied by IDF.
+
+Now let us look at the code.
+
+We first build a vocabulary
+from the training texts.
+
+Then we compute IDF values
+for each word.
+
+Next,
+for every document,
+we compute TF-IDF vectors.
+
+These vectors represent
+the importance of each word.
+
+During training,
+we store TF-IDF weights
+for each class.
+
+During prediction,
+we compute TF-IDF
+for the new text
+and compare it with each class.
+
+Now let us test the model.
+
+We give:
+win money offer.
+
+Words like win and money
+are rare in normal messages
+but common in spam.
+
+TF-IDF gives these words
+higher importance.
+
+So the classifier predicts Spam.
+
+TF-IDF is still widely used today.
+
+Search engines,
+document ranking,
+resume screening,
+and similarity engines
+all use TF-IDF internally.
+
+But TF-IDF still ignores meaning.
+
+The next step
+is learning word embeddings.
+
+In the next video,
+we will build Word2Vec
+from scratch.
+
+Thank you for watching.
+See you in the next video.

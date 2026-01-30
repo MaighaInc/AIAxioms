@@ -1,0 +1,80 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned prompt chaining.
+
+Today we learn another
+extremely powerful technique.
+
+Today’s topic is:
+FEW-SHOT LEARNING.
+
+Few-shot learning allows models
+to learn a task
+without retraining.
+
+Instead of training data,
+we give examples directly
+inside the prompt.
+
+Now let us understand the idea.
+
+Language models are pattern matchers.
+
+When we show them examples,
+they infer the pattern.
+
+They then apply the same pattern
+to new inputs.
+
+This is few-shot learning.
+
+Now let us look at the prompt.
+
+We give the model
+two examples.
+
+One positive review.
+One negative review.
+
+Then we give a new text
+and leave the answer blank.
+
+The model understands the pattern
+and completes it.
+
+This feels like learning,
+but no weights are updated.
+
+Everything happens
+inside the prompt.
+
+Now let us look at the code.
+
+We simulate an LLM
+that responds based on
+the provided examples.
+
+In real systems,
+the model uses probability
+and internal representations.
+
+But conceptually,
+this is exactly what happens.
+
+Few-shot learning is used in:
+classification,
+formatting,
+extraction,
+and reasoning tasks.
+
+It is one of the reasons
+LLMs are so powerful.
+
+In the next video,
+we will build a tool-using LLM,
+where models can call external tools
+like calculators and APIs.
+
+Thank you for watching.
+See you in the next video.

@@ -1,0 +1,86 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a CNN for digit recognition.
+
+Digits are simple images.
+
+But real-world images are much harder.
+
+Today’s topic is:
+CNN FOR IMAGE CLASSIFICATION.
+
+This is where deep learning
+becomes truly powerful.
+
+We use the CIFAR-10 dataset,
+which contains real color images.
+
+Each image is 32 by 32 pixels
+with three color channels:
+red, green, and blue.
+
+This makes the problem
+much more complex than MNIST.
+
+For simplicity,
+we convert this into a binary problem:
+airplane versus automobile.
+
+Now let us walk through the code.
+
+We load the CIFAR-10 dataset
+directly from Keras.
+
+Then we filter the dataset
+to keep only two classes.
+
+Next,
+we normalize pixel values
+between 0 and 1.
+
+Now we build the CNN.
+
+The first convolution layer
+extracts low-level features
+like edges and corners.
+
+The second convolution layer
+extracts more complex patterns
+like shapes.
+
+MaxPooling reduces image size
+while keeping important features.
+
+After convolution,
+we flatten the feature maps
+and pass them to Dense layers.
+
+The final layer uses sigmoid
+because this is binary classification.
+
+We compile the model
+using binary cross-entropy loss.
+
+Then we train the model.
+
+You will see accuracy improve
+as the network learns visual patterns.
+
+Finally,
+we evaluate the model
+on unseen images.
+
+This exact pipeline
+is used in real-world applications
+like object detection
+and image moderation.
+
+In the next video,
+we will move from images
+to sequences using RNNs.
+
+This is where time and order matter.
+
+Thank you for watching.
+See you in the next video.

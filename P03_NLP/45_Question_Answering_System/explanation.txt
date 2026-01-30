@@ -1,0 +1,92 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned text summarization.
+
+Today we move to another
+very important NLP task.
+
+Today’s topic is:
+QUESTION ANSWERING SYSTEM.
+
+Question answering systems
+allow machines to answer questions
+based on a given passage of text.
+
+This is used in:
+search engines,
+chatbots,
+virtual assistants,
+and help desks.
+
+Now let us understand the idea.
+
+We are NOT generating new text.
+
+Instead,
+we are extracting the answer
+from existing text.
+
+This is called
+extractive question answering.
+
+Now let us see how it works.
+
+We take two inputs:
+a question,
+and a context passage.
+
+The goal is to find
+the sentence in the context
+that best answers the question.
+
+To do this,
+we use text similarity.
+
+Now let us look at the code.
+
+First,
+we tokenize the question
+and each sentence in the context.
+
+Then we convert words
+into frequency vectors.
+
+Next,
+we compute similarity
+between the question
+and each sentence.
+
+We use cosine similarity.
+
+Cosine similarity measures
+how similar two texts are
+based on word overlap.
+
+The sentence with the highest similarity
+is chosen as the answer.
+
+Now let us test the system.
+
+We give a context paragraph
+and a question.
+
+The system correctly selects
+the sentence that answers the question.
+
+This is the foundation
+of modern QA systems.
+
+Advanced systems use transformers
+to understand context deeply.
+
+But even those systems
+still perform sentence matching
+internally.
+
+In the next video,
+we will build a text similarity engine,
+which generalizes this idea further.
+
+Thank you for watching.
+See you in the next video.

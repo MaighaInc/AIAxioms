@@ -1,0 +1,91 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a question answering system.
+
+That system worked by
+measuring similarity between
+questions and sentences.
+
+Today we generalize that idea.
+
+Today’s topic is:
+TEXT SIMILARITY ENGINE.
+
+Text similarity measures
+how close two texts are
+in meaning.
+
+This is used in:
+search engines,
+resume matching,
+document clustering,
+and plagiarism detection.
+
+Now let us understand the core idea.
+
+We convert text into vectors.
+
+Each dimension represents a word.
+
+The value represents
+how many times the word appears.
+
+Once we have vectors,
+we measure the angle between them.
+
+This is done using cosine similarity.
+
+If two texts are similar,
+their vectors point
+in the same direction.
+
+If they are different,
+the angle is large.
+
+Now let us look at the code.
+
+First,
+we tokenize text.
+
+Then we convert text
+into word frequency vectors.
+
+Next,
+we compute cosine similarity.
+
+Cosine similarity returns a value
+between zero and one.
+
+One means identical.
+Zero means completely different.
+
+Now let us test the engine.
+
+We give two sentences.
+
+They use different words,
+but the meaning is similar.
+
+The similarity score is high.
+
+This technique is simple,
+fast,
+and extremely useful.
+
+Modern systems use embeddings
+instead of raw word counts.
+
+But the idea is the same.
+
+Text similarity is the backbone
+of many NLP applications.
+
+In the next video,
+we will use similarity
+to group documents automatically.
+
+That is called document clustering.
+
+Thank you for watching.
+See you in the next video.

@@ -1,0 +1,101 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a sentiment analysis system.
+
+Today we move to another
+very practical NLP task.
+
+Today’s topic is:
+TEXT SUMMARIZATION.
+
+Text summarization means
+shortening a long document
+while keeping the important information.
+
+This is used in:
+news apps,
+search engines,
+document analysis,
+and research tools.
+
+There are two types of summarization.
+
+Extractive summarization.
+Abstractive summarization.
+
+Today we focus on
+extractive summarization.
+
+Extractive summarization means
+selecting the most important sentences
+from the original text.
+
+Now let us understand the idea.
+
+Important sentences usually contain
+important words.
+
+If a word appears many times
+in a document,
+it is likely important.
+
+We use this idea
+to score sentences.
+
+Now let us look at the code.
+
+First,
+we split the text into sentences.
+
+Then we split sentences into words.
+
+Next,
+we calculate word frequencies
+for the entire document.
+
+Then we score each sentence.
+
+A sentence score
+is the sum of frequencies
+of the words it contains.
+
+Sentences with higher scores
+are considered more important.
+
+Finally,
+we select the top sentences
+as the summary.
+
+Now let us test the summarizer.
+
+We give a paragraph as input.
+
+The system extracts
+the most important sentences
+and creates a summary.
+
+This approach is simple,
+fast,
+and surprisingly effective.
+
+However,
+it does not rewrite sentences.
+
+It only selects them.
+
+Modern systems use
+abstractive summarization
+with transformers.
+
+But even those models
+use importance scoring internally.
+
+In the next video,
+we will build a
+question answering system,
+where machines answer questions
+from text.
+
+Thank you for watching.
+See you in the next video.

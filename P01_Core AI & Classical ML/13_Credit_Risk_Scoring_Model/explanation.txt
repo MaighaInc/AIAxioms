@@ -1,0 +1,92 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a spam email classifier.
+
+Today we are moving into
+one of the most important applications
+of machine learning in the real world.
+
+Today’s topic is:
+CREDIT RISK SCORING MODEL.
+
+Banks and financial institutions
+use credit risk models
+to decide whether to approve loans.
+
+The goal is simple:
+Predict whether a customer
+will repay the loan or default.
+
+This is a binary classification problem.
+
+Now let us understand the data.
+
+We use four features:
+age,
+annual income,
+loan amount,
+and credit score.
+
+The output is:
+0 for high risk,
+1 for low risk.
+
+Now let us walk through the code.
+
+First,
+we prepare the dataset
+using numpy arrays.
+
+Then we split the data
+into training and testing sets.
+
+This ensures the model
+is evaluated properly.
+
+Next,
+we train a logistic regression model.
+
+Logistic regression is widely used
+in finance because it outputs probabilities.
+
+After training,
+we make predictions
+on the test data.
+
+We evaluate the model using:
+accuracy,
+confusion matrix,
+and classification report.
+
+Now let us talk about probability.
+
+Instead of only predicting
+high risk or low risk,
+the model also tells us
+how confident it is.
+
+This probability is extremely important.
+
+For example,
+a bank may approve loans
+only if probability is above 70 percent.
+
+Finally,
+we test the model
+with a new customer.
+
+The model outputs
+the probability of being low risk
+and the final decision.
+
+Credit risk models are regulated,
+interpretable,
+and critical for financial stability.
+
+In the next video,
+we will build a customer churn prediction model,
+which is widely used by subscription companies.
+
+Thank you for watching.
+See you in the next video.

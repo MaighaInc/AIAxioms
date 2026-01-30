@@ -1,0 +1,83 @@
+Hello guys, welcome back to the channel.
+
+We have now entered
+the LLM API section.
+
+This is where models
+turn into real products.
+
+Today’s topic is:
+OPENAI-COMPATIBLE LLM WRAPPER.
+
+Modern GenAI applications
+do not talk directly to models.
+
+They talk to APIs.
+
+Whether it is OpenAI,
+Azure OpenAI,
+Anthropic,
+or local LLMs,
+the interaction pattern is the same.
+
+Now let us understand why wrappers exist.
+
+If you hard-code API calls everywhere,
+your code becomes messy and fragile.
+
+Instead,
+we create a wrapper layer.
+
+This wrapper exposes
+a simple function:
+generate(prompt).
+
+Internally,
+it handles:
+model selection,
+parameters,
+and API details.
+
+Now let us look at the code.
+
+We define a class called LLMWrapper.
+
+It takes a model name.
+
+It exposes a generate method.
+
+This method accepts:
+a prompt,
+max tokens,
+and temperature.
+
+In this lesson,
+we simulate the API call.
+
+Later,
+you can replace this logic
+with real API requests.
+
+The rest of your application
+does not need to change.
+
+This is extremely important.
+
+This abstraction allows you to:
+switch models easily,
+add logging,
+add safety filters,
+and add caching.
+
+Every production GenAI system
+uses this pattern.
+
+In the next video,
+we will build on this wrapper
+to execute multiple prompts in sequence.
+
+This is called
+multi-prompt chaining.
+
+Thank you for watching.
+See you in the next video.

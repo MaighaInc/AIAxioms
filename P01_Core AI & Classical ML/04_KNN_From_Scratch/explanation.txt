@@ -1,0 +1,101 @@
+Hello everyone, welcome back to the channel.
+
+In the previous video,
+we discussed Naive Bayes,
+which uses probability to make predictions.
+
+Today we are learning a very different algorithm.
+
+Today’s topic is:
+K-NEAREST NEIGHBORS,
+also known as KNN.
+
+This algorithm is very simple,
+but extremely important for understanding
+distance-based learning.
+
+KNN does not learn a model.
+There is no training phase.
+
+Instead,
+it stores all the data in memory.
+
+When a new data point arrives,
+it compares that point
+to all existing data points.
+
+Now let us understand the idea intuitively.
+
+Imagine you move to a new city
+and want to know if an area is safe.
+
+You look at nearby houses
+and see how the neighbors are.
+
+If most neighbors are friendly,
+you assume the area is safe.
+
+That is exactly how KNN works.
+
+Now let us look at the code.
+
+We created a class called KNNClassifier.
+
+Inside the constructor,
+we define the value of K,
+which is the number of neighbors to consider.
+
+The fit function does nothing but store the data.
+That is why KNN is called a lazy learning algorithm.
+
+Now the most important function is predict.
+
+First,
+we calculate the distance between
+the test point and every training point.
+
+We use Euclidean distance,
+which is the straight-line distance.
+
+Then we sort the distances
+and select the K closest neighbors.
+
+From these neighbors,
+we take a majority vote.
+
+Whichever class appears most,
+becomes the prediction.
+
+In our example,
+we use K equal to 3.
+
+The test point is close to class A points,
+so the model predicts class A.
+
+Now let us talk about advantages of KNN.
+
+It is very simple.
+It makes no assumptions about data.
+It can model complex boundaries.
+
+But it also has disadvantages.
+
+It is slow for large datasets.
+It requires storing all data.
+It is sensitive to feature scaling.
+
+Choosing the right value of K
+is very important.
+
+Small K can cause noise.
+Large K can oversmooth decisions.
+
+In the next video,
+we will move to Linear Regression,
+where models actually learn parameters.
+
+If you understand KNN,
+you now understand instance-based learning.
+
+Thank you for watching.
+See you in the next video.

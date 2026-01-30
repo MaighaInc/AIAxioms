@@ -1,0 +1,81 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned text rewriting.
+
+Now we move to one of the most
+popular GenAI applications today.
+
+Today’s topic is:
+CODE GENERATION ASSISTANT.
+
+Tools like ChatGPT and GitHub Copilot
+are changing how programmers work.
+
+But how does AI generate code?
+
+Let us break it down.
+
+Code is just structured text.
+
+Programming languages follow
+patterns and rules.
+
+AI models learn these patterns
+from large amounts of code.
+
+Now let us understand the idea.
+
+The user gives an instruction.
+
+For example:
+write a function to add two numbers.
+
+The model maps this instruction
+to a known code pattern.
+
+Then it generates the code
+token by token.
+
+Now let us look at the code.
+
+In this lesson,
+we simulate a code generation assistant.
+
+We check the instruction text.
+
+If the instruction matches
+a known task,
+we return a code template.
+
+This is rule-based generation.
+
+Real LLMs do the same thing,
+but using probability instead of rules.
+
+They have seen millions of examples
+of similar instructions and code.
+
+So when you ask for code,
+they predict the most likely
+next token sequence.
+
+Now let us test the assistant.
+
+We give different instructions.
+
+The assistant generates
+working Python code.
+
+This is how AI helps developers:
+writing boilerplate,
+suggesting logic,
+and speeding up development.
+
+In the next video,
+we will move beyond text
+and enter image generation,
+starting with diffusion basics.
+
+Thank you for watching.
+See you in the next video.

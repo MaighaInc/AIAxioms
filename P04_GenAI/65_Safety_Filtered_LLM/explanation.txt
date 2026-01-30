@@ -1,0 +1,121 @@
+Hello guys, welcome back to the channel.
+
+This is the final video
+of PART 4 — Generative AI.
+
+Today’s topic is:
+SAFETY-FILTERED LLM.
+
+This is one of the most important
+lessons in the entire course.
+
+Generative AI is powerful.
+
+But with power comes responsibility.
+
+Modern AI systems must be safe,
+ethical,
+and controllable.
+
+Now let us understand
+why safety filters are required.
+
+LLMs generate text
+based on patterns.
+
+They do not understand
+morality or legality.
+
+So we must guide them.
+
+Safety filters act as guardrails.
+
+They protect users,
+organizations,
+and society.
+
+Now let us understand
+where safety filters are applied.
+
+There are two stages.
+
+First:
+input filtering.
+
+We check the user prompt
+before sending it to the model.
+
+If the prompt violates policy,
+we block it.
+
+Second:
+output filtering.
+
+We check the model’s response
+before showing it to the user.
+
+If the output is unsafe,
+we block or modify it.
+
+Now let us look at the code.
+
+We define a SafetyFilter class.
+
+This class checks text
+for unsafe keywords.
+
+Then we define a simple LLM.
+
+Finally,
+we combine them
+in a SafetyFilteredLLM.
+
+Every request goes through
+the safety filter first.
+
+Only safe requests
+reach the model.
+
+Every response is filtered again
+before being returned.
+
+This layered defense approach
+is used in all production systems.
+
+Companies like OpenAI,
+Google,
+and Microsoft
+use multiple safety layers,
+including classifiers
+and human review.
+
+Safety is not optional.
+
+It is a core requirement
+of responsible AI development.
+
+With this lesson,
+we complete PART 4
+of the Generative AI journey.
+
+You now understand:
+how AI generates text,
+images,
+code,
+how APIs work,
+how agents use tools,
+and how safety is enforced.
+
+This is a complete,
+industry-ready foundation.
+
+Thank you for completing
+this journey with me.
+
+You are now prepared
+to build,
+use,
+and deploy Generative AI
+responsibly.
+
+See you in the next advanced series.

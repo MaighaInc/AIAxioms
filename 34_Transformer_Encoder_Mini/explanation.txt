@@ -1,0 +1,103 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned about the attention mechanism.
+
+Today we take the next big step.
+
+Today’s topic is:
+TRANSFORMER ENCODER FROM SCRATCH.
+
+This is one of the most important
+architectures in modern AI.
+
+Let us first understand
+what a Transformer Encoder does.
+
+A Transformer Encoder
+takes input tokens
+and converts them
+into rich contextual representations.
+
+Each token learns information
+about every other token.
+
+Now let us break down the encoder.
+
+A Transformer Encoder has
+four main components:
+
+1. Self-attention
+2. Residual connection
+3. Feedforward network
+4. Layer normalization
+
+Now let us walk through the code.
+
+We start with input embeddings.
+
+Each row represents a token.
+Each column represents an embedding dimension.
+
+First,
+we create Query, Key, and Value matrices.
+
+These are learned projections
+of the input.
+
+Then we apply self-attention.
+
+Each token attends to all tokens,
+including itself.
+
+Next,
+we add a residual connection.
+
+Residual connection means
+we add the original input
+to the attention output.
+
+This helps with gradient flow
+and stable training.
+
+Then we apply layer normalization.
+
+Layer normalization keeps values
+numerically stable.
+
+Next,
+we apply a feedforward network.
+
+This is a simple neural network
+applied independently
+to each token.
+
+Again,
+we add a residual connection.
+
+Again,
+we apply layer normalization.
+
+The final output
+is the encoded representation.
+
+This output is passed
+to the next encoder layer
+or to a decoder.
+
+This exact structure
+is repeated many times
+in real Transformers.
+
+BERT uses only encoder blocks.
+GPT uses decoder blocks.
+
+Now you understand
+what is inside them.
+
+In the next video,
+we will build a mini Transformer Decoder
+and complete the Transformer architecture.
+
+Thank you for watching.
+See you in the next video.
