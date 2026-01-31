@@ -1,0 +1,2 @@
+# Stemming
+Simple suffix stripping.

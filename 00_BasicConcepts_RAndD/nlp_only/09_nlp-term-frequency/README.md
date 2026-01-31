@@ -1,0 +1,2 @@
+# Term Frequency
+Normalized frequency.

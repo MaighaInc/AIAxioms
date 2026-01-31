@@ -1,0 +1,1 @@
+print('fun' in 'nlp fun')
