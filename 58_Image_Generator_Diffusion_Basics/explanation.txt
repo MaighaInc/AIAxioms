@@ -1,0 +1,86 @@
+Hello guys, welcome back to the channel.
+
+Now we are entering
+the visual side of Generative AI.
+
+Today’s topic is:
+IMAGE GENERATION USING DIFFUSION BASICS.
+
+Models like Stable Diffusion
+and DALL·E
+generate images in a very surprising way.
+
+They do not draw images directly.
+
+They start from noise.
+
+Let us understand this step by step.
+
+First,
+what is diffusion?
+
+Diffusion is a process
+where noise is gradually added
+to an image until it becomes pure noise.
+
+The model learns
+how to reverse this process.
+
+That means:
+how to remove noise step by step.
+
+Now let us look at the key idea.
+
+Image generation works like this:
+
+Start with random noise.
+Remove a little noise.
+Repeat this many times.
+An image slowly appears.
+
+This may sound strange,
+but it works extremely well.
+
+Now let us look at the code.
+
+We simulate this idea.
+
+We start with a random matrix.
+This represents pure noise.
+
+Then,
+in each step,
+we apply a denoising operation.
+
+In real models,
+this denoising is done
+using a neural network.
+
+Here,
+we simulate it using simple math.
+
+After many steps,
+the image becomes structured.
+
+This is exactly how
+real diffusion models work.
+
+The difference is:
+real models use
+millions of parameters,
+trained on huge datasets.
+
+But the logic is the same.
+
+Diffusion models are used in:
+image generation,
+image editing,
+inpainting,
+and style transfer.
+
+In the next video,
+we will connect vision and language
+by building an image captioning model.
+
+Thank you for watching.
+See you in the next video.

@@ -1,0 +1,74 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned image captioning,
+where AI describes images.
+
+Today we do something creative.
+
+Today’s topic is:
+STYLE TRANSFER AI.
+
+Style transfer allows AI
+to take one image’s content
+and another image’s style
+and combine them.
+
+For example:
+a photo of a city
+painted like Van Gogh.
+
+Now let us understand the key idea.
+
+Neural style transfer separates:
+what is in the image,
+and how it looks.
+
+The content represents structure.
+The style represents texture and colors.
+
+Now let us understand the architecture.
+
+A deep neural network
+extracts features from an image.
+
+Lower layers capture content.
+Higher layers capture style patterns.
+
+The model then generates a new image
+that preserves content
+but matches the style.
+
+Now let us look at the simplified code.
+
+We simulate content extraction.
+
+Then we simulate style extraction.
+
+Finally,
+we combine them into a new image.
+
+This matches exactly
+how real style transfer works conceptually.
+
+Style transfer is used in:
+photo editing,
+creative tools,
+filters,
+and generative art.
+
+Modern systems perform style transfer
+in real time using deep networks.
+
+In the next section,
+we move from models
+to real LLM APIs and tooling.
+
+We will build:
+wrappers,
+chains,
+tool-using agents,
+and safety systems.
+
+Thank you for watching.
+See you in the next video.

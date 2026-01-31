@@ -1,0 +1,66 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built short-term conversational memory.
+
+That memory disappears
+when the conversation ends.
+
+Today we solve that problem.
+
+Today’s topic is:
+LONG-TERM VECTOR MEMORY.
+
+Long-term memory allows AI
+to remember information
+across sessions and time.
+
+Now let us understand the key idea.
+
+We cannot store everything
+in short-term memory.
+
+Instead,
+we store important information
+as memories.
+
+These memories are stored
+as vector embeddings.
+
+When a new query arrives,
+we retrieve the most relevant memories
+using vector similarity.
+
+Now let us look at the code.
+
+We store memories as text.
+
+When retrieving,
+we convert both the query
+and memories into vectors.
+
+We then compute cosine similarity.
+
+The memories with the highest similarity
+are retrieved.
+
+This is exactly how
+modern agent memory systems work.
+
+Long-term memory is used for:
+user preferences,
+facts learned over time,
+past interactions,
+and personalization.
+
+This memory persists
+even when the session ends.
+
+In the next video,
+we will build
+EPISODIC MEMORY,
+which stores events
+instead of raw facts.
+
+Thank you for watching.
+See you in the next video.

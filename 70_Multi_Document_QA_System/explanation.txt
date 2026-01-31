@@ -1,0 +1,91 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a RAG chatbot over one set of documents.
+
+Today we take the next step.
+
+Today’s topic is:
+MULTI-DOCUMENT QA SYSTEM.
+
+Real-world systems
+do not work with a single file.
+
+They work with:
+folders,
+knowledge bases,
+and entire repositories.
+
+Now let us understand the challenge.
+
+A question may be answered
+by information spread
+across many documents.
+
+So we must search everywhere.
+
+Now let us understand the pipeline.
+
+Step one:
+we store documents separately.
+
+Each document is split into chunks.
+
+Step two:
+when a question arrives,
+we convert it into a vector.
+
+Step three:
+we compare the question
+against all chunks
+from all documents.
+
+Step four:
+we rank results globally.
+
+Step five:
+we retrieve the top chunks,
+even if they come from
+different documents.
+
+Step six:
+we generate an answer
+using the combined context.
+
+Now let us look at the code.
+
+We store documents
+in a dictionary.
+
+Each document has its own chunks.
+
+We build a global vocabulary.
+
+Then we compute similarity
+between the question
+and every chunk.
+
+We keep the top matches,
+regardless of source.
+
+Finally,
+we generate an answer
+that references
+multiple documents.
+
+This is how enterprise QA works.
+
+This system can answer:
+policy questions,
+technical questions,
+and research queries.
+
+In the next video,
+we will improve retrieval quality
+by combining keyword search
+and vector search.
+
+That is called Hybrid Search.
+
+Thank you for watching.
+See you in the next video.

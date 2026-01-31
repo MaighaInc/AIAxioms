@@ -1,0 +1,71 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built episodic memory.
+
+Now we solve a critical problem.
+
+Memory cannot grow forever.
+
+Today’s topic is:
+MEMORY DECAY AND REINFORCEMENT.
+
+Human memory works this way.
+
+Things we don’t use,
+we forget.
+
+Things we use often,
+we remember strongly.
+
+AI memory should behave the same.
+
+Now let us understand the concepts.
+
+Each memory has a strength.
+
+Over time,
+this strength decays.
+
+If the memory is accessed again,
+its strength increases.
+
+This is reinforcement.
+
+Now let us look at the code.
+
+Each memory item tracks:
+content,
+strength,
+and last accessed time.
+
+We decay memory strength
+based on time passed.
+
+When a memory is accessed,
+we reinforce it.
+
+Finally,
+we clean up memories
+below a strength threshold.
+
+This prevents memory overload.
+
+This approach is used in:
+long-running agents,
+personal assistants,
+and recommendation systems.
+
+Without decay,
+memory becomes noisy.
+
+Without reinforcement,
+important information is lost.
+
+In the next video,
+we will use memory
+to personalize AI behavior
+for individual users.
+
+Thank you for watching.
+See you in the next video.

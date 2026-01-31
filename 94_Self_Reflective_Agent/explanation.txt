@@ -1,0 +1,60 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built debate-based reasoning agents.
+
+Now we move inward.
+
+Today’s topic is:
+SELF-REFLECTIVE AI AGENT.
+
+This agent does something powerful.
+
+It critiques itself.
+
+Humans improve by reflection.
+AI can do the same.
+
+Now let us understand the loop.
+
+Step one:
+the agent generates an answer.
+
+Step two:
+the agent reviews the answer.
+
+Step three:
+it identifies weaknesses.
+
+Step four:
+it improves the answer.
+
+This loop can repeat multiple times.
+
+Now let us look at the code.
+
+The generate method
+creates an initial response.
+
+The reflect method
+critiques the response.
+
+The improve method
+enhances the answer.
+
+This architecture is used in:
+alignment research,
+safe AI systems,
+and autonomous improvement loops.
+
+Self-reflection reduces hallucinations
+and increases reliability.
+
+In the next video,
+we will build an auto-improving agent.
+
+This agent learns continuously
+from its past outputs.
+
+Thank you for watching.
+See you in the next video.

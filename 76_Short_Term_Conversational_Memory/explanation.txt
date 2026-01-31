@@ -1,0 +1,79 @@
+Hello guys, welcome back to the channel.
+
+We are now starting
+PART 6 — MEMORY SYSTEMS.
+
+Memory is what transforms
+a chatbot into an assistant.
+
+Today’s topic is:
+SHORT-TERM CONVERSATIONAL MEMORY.
+
+Let us understand the problem first.
+
+LLMs are stateless.
+
+If you send one message,
+they forget the previous one.
+
+To fix this,
+we provide memory.
+
+Short-term memory stores
+recent conversation turns.
+
+This memory is sent back
+to the model with each request.
+
+Now let us understand how it works.
+
+We define a memory window.
+
+This window stores
+the last few messages.
+
+When a new message arrives,
+older messages are discarded.
+
+This is called
+a sliding window memory.
+
+Now let us look at the code.
+
+We use a deque
+with a maximum size.
+
+Each message is stored
+with a role:
+user or assistant.
+
+When the memory is full,
+older messages are removed automatically.
+
+Before generating a response,
+we collect the memory
+and send it as context.
+
+This allows the model
+to understand
+what was said earlier.
+
+Short-term memory is used in:
+chatbots,
+customer support,
+virtual assistants,
+and help desks.
+
+However,
+short-term memory has limits.
+
+It forgets over time.
+
+In the next video,
+we will build
+LONG-TERM VECTOR MEMORY,
+which allows AI to remember
+information forever.
+
+Thank you for watching.
+See you in the next video.

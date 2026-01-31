@@ -1,0 +1,85 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a multi-document QA system.
+
+Today we improve retrieval quality.
+
+Today’s topic is:
+HYBRID SEARCH.
+
+Hybrid search combines
+keyword-based search
+and vector-based semantic search.
+
+Now let us understand why this matters.
+
+Keyword search is very precise.
+
+If a document contains
+the exact words,
+it scores high.
+
+But it fails
+when synonyms are used.
+
+Vector search understands meaning.
+
+But sometimes it misses
+exact matches.
+
+Hybrid search combines both.
+
+This gives the best of both worlds.
+
+Now let us understand the components.
+
+First is BM25-style scoring.
+
+BM25 scores documents
+based on keyword frequency
+and document length.
+
+Second is vector similarity.
+
+We convert text into vectors
+and compute cosine similarity.
+
+Finally,
+we combine both scores.
+
+Now let us look at the code.
+
+We tokenize the query
+and documents.
+
+We compute a BM25-style score.
+
+Then we compute vector similarity.
+
+We add both scores
+to get a hybrid score.
+
+Documents are ranked
+by this combined score.
+
+This approach is used in:
+Elasticsearch,
+OpenSearch,
+enterprise search engines,
+and advanced RAG systems.
+
+Hybrid search dramatically improves
+answer accuracy and relevance.
+
+In the next video,
+we will make retrieval smarter
+by adding metadata awareness.
+
+That is how enterprise systems
+filter by department,
+date,
+or document type.
+
+Thank you for watching.
+See you in the next video.

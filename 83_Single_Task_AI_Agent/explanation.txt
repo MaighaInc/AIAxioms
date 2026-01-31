@@ -1,0 +1,60 @@
+Hello guys, welcome back to the channel.
+
+We are now entering
+PART 7 — AI AGENTS.
+
+This is where AI stops
+just answering questions
+and starts doing work.
+
+Today’s topic is:
+SINGLE-TASK AI AGENT.
+
+Let us understand what an agent is.
+
+An AI agent has three key components:
+perception,
+decision,
+and action.
+
+It receives a goal,
+decides what to do,
+and acts.
+
+In this first lesson,
+we build the simplest possible agent.
+
+It has one task.
+
+Once completed,
+it stops.
+
+Now let us look at the code.
+
+We define a SingleTaskAgent class.
+
+It stores a task.
+
+The agent perceives the task.
+
+Then it acts on it.
+
+Once done,
+it marks the task as completed.
+
+This may look simple,
+but this structure is the foundation
+of all advanced agents.
+
+Every agent,
+no matter how complex,
+follows this loop.
+
+In the next video,
+we will give agents tools.
+
+This allows them to call APIs
+and perform real-world actions.
+
+Thank you for watching.
+See you in the next video.

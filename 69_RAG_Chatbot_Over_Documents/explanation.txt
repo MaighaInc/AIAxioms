@@ -1,0 +1,88 @@
+Hello guys, welcome back to the channel.
+
+This is a very important video.
+
+Today we are building
+a RAG CHATBOT OVER DOCUMENTS.
+
+This is what people mean when they say:
+ChatGPT over PDFs.
+
+Now let us understand the problem.
+
+LLMs are powerful,
+but they do not know your documents.
+
+They cannot access PDFs,
+internal files,
+or company data.
+
+RAG solves this problem.
+
+RAG stands for
+Retrieval-Augmented Generation.
+
+It means:
+retrieve relevant information,
+then generate an answer using it.
+
+Now let us understand the pipeline.
+
+Step one:
+the user asks a question.
+
+Step two:
+we convert the question into a vector.
+
+Step three:
+we search document chunks
+using vector similarity.
+
+Step four:
+we retrieve the most relevant chunks.
+
+Step five:
+we pass these chunks
+to the language model
+to generate an answer.
+
+Now let us look at the code.
+
+We simulate embeddings
+using word frequency vectors.
+
+We compute cosine similarity
+between the question and document chunks.
+
+We retrieve the top matching chunks.
+
+Then we combine them
+to form the context.
+
+Finally,
+we generate an answer
+based on the retrieved context.
+
+This separation is critical.
+
+The LLM does not guess.
+It answers using retrieved facts.
+
+This is why RAG reduces hallucinations.
+
+This architecture is used in:
+enterprise chatbots,
+research assistants,
+legal search,
+and customer support bots.
+
+In the next video,
+we will extend this idea
+to answer questions
+across multiple documents.
+
+That is called
+Multi-Document QA.
+
+Thank you for watching.
+See you in the next video.

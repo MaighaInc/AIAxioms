@@ -1,0 +1,59 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a code-writing agent.
+
+But writing code is only half the job.
+
+Real developers spend most of their time
+debugging.
+
+Today’s topic is:
+DEBUGGING AI AGENT.
+
+This agent reads code,
+understands errors,
+and suggests fixes.
+
+Now let us understand the pipeline.
+
+First,
+the agent receives code.
+
+Second,
+it analyzes the code.
+
+Third,
+it identifies potential errors.
+
+Fourth,
+it suggests fixes.
+
+Now let us look at the code.
+
+The analyze method scans the code
+for common mistakes.
+
+The suggest_fix method
+explains how to fix them.
+
+This approach can be extended to:
+stack traces,
+unit test failures,
+and runtime logs.
+
+This is how AI debugging assistants work.
+
+They don’t just say “error”.
+They explain why
+and how to fix it.
+
+In the next and final video
+of PART 7,
+we will build a multi-step task executor.
+
+This agent will chain actions together
+to complete complex goals.
+
+Thank you for watching.
+See you in the final video.

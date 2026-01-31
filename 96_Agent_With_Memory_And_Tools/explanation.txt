@@ -1,0 +1,69 @@
+Hello guys, welcome back to the channel.
+
+This is a very important lesson.
+
+Today’s topic is:
+AGENT WITH MEMORY AND TOOLS.
+
+So far,
+we learned memory systems,
+tool-using agents,
+and reasoning loops.
+
+Now we combine them.
+
+This is how real assistants work.
+
+Let us understand the architecture.
+
+The agent has memory.
+
+It stores important interactions.
+
+The agent also has tools.
+
+It decides when to use them.
+
+Now let us look at the flow.
+
+A user sends a task.
+
+The agent thinks:
+do I need a tool?
+
+If yes,
+it calls the tool.
+
+If not,
+it responds using memory.
+
+Now let us look at the code.
+
+We define a memory class.
+
+We define a calculator tool.
+
+The agent decides actions
+based on the task.
+
+It stores results in memory.
+
+Future responses
+can reference past interactions.
+
+This architecture is used in:
+ChatGPT,
+Copilots,
+enterprise assistants,
+and autonomous agents.
+
+In the next and final video
+of PART 8,
+we will evaluate agents.
+
+Evaluation is critical
+for safety, performance,
+and reliability.
+
+Thank you for watching.
+See you in the final video.

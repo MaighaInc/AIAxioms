@@ -1,0 +1,72 @@
+Hello guys, welcome back to the channel.
+
+We are now entering the final part
+of this entire AI journey.
+
+This is PART 9 — AUGMENTED & PRODUCTION AI.
+
+Today’s topic is:
+HUMAN-IN-THE-LOOP AI SYSTEM.
+
+This concept is extremely important.
+
+AI should not always act alone.
+
+In high-stakes domains like:
+finance,
+healthcare,
+law,
+and enterprise systems,
+human oversight is mandatory.
+
+Now let us understand the idea.
+
+AI generates a recommendation.
+
+A human reviews it.
+
+Only after approval
+does the system proceed.
+
+This creates accountability
+and prevents catastrophic errors.
+
+Now let us look at the pipeline.
+
+Step one:
+AI generates an output.
+
+Step two:
+human reviews the output.
+
+Step three:
+human approves or rejects.
+
+Step four:
+the system acts accordingly.
+
+Now let us look at the code.
+
+The AIModel generates a suggestion.
+
+The HumanReviewer asks for approval.
+
+The HITLSystem orchestrates the flow.
+
+This pattern is used in:
+loan approvals,
+medical diagnosis,
+content moderation,
+and legal review systems.
+
+Human-in-the-loop systems balance:
+automation and responsibility.
+
+In the next video,
+we will build an AI SaaS backend.
+
+This will show how AI is deployed
+as a real product.
+
+Thank you for watching.
+See you in the next video.

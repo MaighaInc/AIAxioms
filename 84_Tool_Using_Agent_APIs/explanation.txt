@@ -1,0 +1,75 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a single-task AI agent.
+
+That agent could perform one task.
+
+Today we take a big step forward.
+
+Today’s topic is:
+TOOL-USING AI AGENT.
+
+Modern AI agents are powerful
+because they can use tools.
+
+Tools allow agents to:
+calculate numbers,
+call APIs,
+query databases,
+and control systems.
+
+Now let us understand the architecture.
+
+The agent receives a task.
+
+It analyzes the task.
+
+Then it decides:
+Do I need a tool?
+
+If yes,
+it selects the correct tool
+and executes it.
+
+If not,
+it responds using reasoning.
+
+Now let us look at the code.
+
+We define two tools:
+a calculator API
+and a weather API.
+
+The agent maintains a list of tools.
+
+When a task arrives,
+the agent inspects the task text.
+
+If the task requires calculation,
+it uses the calculator.
+
+If the task asks for weather,
+it calls the weather API.
+
+Otherwise,
+it responds without tools.
+
+This decision-making logic
+is at the heart of agent systems.
+
+This is how ChatGPT:
+uses calculators,
+browsers,
+and code interpreters.
+
+In the next video,
+we will introduce planning.
+
+The agent will think step-by-step
+before acting.
+
+This is called the ReAct pattern.
+
+Thank you for watching.
+See you in the next video.

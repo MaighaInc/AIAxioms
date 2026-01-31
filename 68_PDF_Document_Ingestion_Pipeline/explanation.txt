@@ -1,0 +1,85 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a vector search engine.
+
+Now we move from toy examples
+to real-world data.
+
+Today’s topic is:
+PDF DOCUMENT INGESTION PIPELINE.
+
+This is a critical step in RAG systems.
+
+LLMs do not read PDFs directly.
+
+They need clean,
+structured text.
+
+So we must ingest documents properly.
+
+Now let us understand the ingestion flow.
+
+First,
+we read the PDF file.
+
+Second,
+we extract raw text
+from each page.
+
+Third,
+we split the text into chunks.
+
+Why do we chunk text?
+
+LLMs and embedding models
+have context limits.
+
+If we send an entire PDF at once,
+it will not fit.
+
+Chunking allows us
+to retrieve only
+the relevant parts later.
+
+Now let us look at the code.
+
+We use PyPDF2
+to read the PDF file.
+
+We loop through each page
+and extract text.
+
+Then we split the text
+into fixed-size word chunks.
+
+Each chunk becomes
+a retrievable knowledge unit.
+
+These chunks will later be:
+converted to embeddings,
+stored in a vector database,
+and retrieved during question answering.
+
+PDF ingestion is used in:
+enterprise knowledge systems,
+legal document analysis,
+research assistants,
+and internal chatbots.
+
+If ingestion is poor,
+retrieval will fail.
+
+This is why this step
+is extremely important.
+
+In the next video,
+we will connect retrieval
+and generation
+to build a full RAG chatbot
+over documents.
+
+That is where everything comes together.
+
+Thank you for watching.
+See you in the next video.

@@ -1,0 +1,70 @@
+Hello guys, welcome back to the channel.
+
+This is one of the most important videos
+in the entire course.
+
+Today’s topic is:
+PLANNING AGENT USING ReAct.
+
+ReAct stands for:
+Reason + Act.
+
+Earlier agents reacted immediately.
+
+But real intelligence requires thinking.
+
+Now let us understand the ReAct loop.
+
+Step one:
+the agent receives a task.
+
+Step two:
+the agent thinks about what to do.
+
+Step three:
+the agent performs an action.
+
+Step four:
+the agent observes the result.
+
+Step five:
+the agent decides the next step.
+
+This loop continues until the task is solved.
+
+Now let us look at the code.
+
+We define two tools:
+a search tool
+and a calculator tool.
+
+The agent first produces a thought.
+
+This thought determines
+which tool to use.
+
+Then the agent performs the action.
+
+The result of the action
+is the observation.
+
+Finally,
+the agent produces the answer.
+
+This architecture is used in:
+AutoGPT,
+LangChain agents,
+and advanced copilots.
+
+This is where AI starts
+to resemble human problem solving.
+
+In the next video,
+we will build an autonomous research agent.
+
+This agent will search,
+summarize,
+and decide on its own.
+
+Thank you for watching.
+See you in the next video.

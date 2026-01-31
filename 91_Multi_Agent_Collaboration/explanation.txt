@@ -1,0 +1,61 @@
+Hello guys, welcome back to the channel.
+
+We are now starting
+PART 8 — AGENTIC AI SYSTEMS.
+
+This is the highest level
+of AI architecture.
+
+Today’s topic is:
+MULTI-AGENT COLLABORATION.
+
+Single agents are powerful.
+
+But real-world problems
+are solved by teams.
+
+AI systems work the same way.
+
+Multiple agents specialize
+and collaborate.
+
+Now let us understand the roles.
+
+We have a ResearchAgent.
+
+Its job is to gather information.
+
+We have a WritingAgent.
+
+Its job is to produce output.
+
+We have a CoordinatorAgent.
+
+Its job is to orchestrate the workflow.
+
+Now let us look at the code.
+
+The coordinator assigns tasks.
+
+Each agent works independently.
+
+Results are passed between agents.
+
+This architecture is used in:
+AutoGPT,
+CrewAI,
+LangGraph,
+and enterprise AI systems.
+
+Multi-agent systems allow:
+parallel work,
+specialization,
+and scalability.
+
+In the next video,
+we will introduce hierarchy.
+
+Some agents will manage others.
+
+Thank you for watching.
+See you in the next video.

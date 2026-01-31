@@ -1,0 +1,67 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built user personalization memory.
+
+Now we solve another major limitation.
+
+What happens when the system restarts?
+
+Without persistence,
+all memory is lost.
+
+Today’s topic is:
+CROSS-SESSION MEMORY STORE.
+
+Cross-session memory allows AI
+to remember users
+even after shutdown.
+
+Now let us understand the idea.
+
+Instead of storing memory only in RAM,
+we store it on disk.
+
+This can be a file,
+a database,
+or cloud storage.
+
+When the system starts,
+it loads the memory back.
+
+Now let us look at the code.
+
+We use a simple JSON file
+to store memory.
+
+When the program starts,
+we load existing memory.
+
+When we update memory,
+we save it immediately.
+
+This guarantees persistence.
+
+This approach is used in:
+chatbots,
+assistants,
+and personalization systems.
+
+In production,
+this file storage is replaced
+by databases like:
+PostgreSQL,
+Redis,
+or vector databases.
+
+But the idea remains the same.
+
+In the next and final video
+of PART 6,
+we will visualize memory.
+
+This helps developers understand
+what the AI remembers.
+
+Thank you for watching.
+See you in the next video.

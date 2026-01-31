@@ -1,0 +1,82 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built metadata-aware retrieval.
+
+Today we focus on trust.
+
+Today’s topic is:
+RAG WITH CITATION OUTPUTS.
+
+One of the biggest problems
+with generative AI
+is hallucination.
+
+Models can sound confident
+even when they are wrong.
+
+Citations solve this.
+
+Citations show
+where the answer came from.
+
+They allow users
+to verify information.
+
+Now let us understand the pipeline.
+
+Step one:
+retrieve relevant documents.
+
+Step two:
+select the most relevant chunks.
+
+Step three:
+generate an answer
+based only on retrieved text.
+
+Step four:
+attach citations
+that point to original sources.
+
+This makes answers auditable.
+
+Now let us look at the code.
+
+Each document includes
+a source field.
+
+During retrieval,
+we rank documents by similarity.
+
+We then combine the top chunks
+into the answer.
+
+At the same time,
+we track which source
+each chunk came from.
+
+Finally,
+we return the answer
+along with citations.
+
+This approach is used in:
+research assistants,
+legal tools,
+medical AI,
+and enterprise knowledge systems.
+
+Citations build trust.
+
+Without citations,
+RAG systems are incomplete.
+
+In the next video,
+we will improve user experience
+by streaming RAG responses.
+
+That makes chatbots feel
+real-time and interactive.
+
+Thank you for watching.
+See you in the next video.

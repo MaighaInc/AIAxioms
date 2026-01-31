@@ -1,0 +1,57 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a manager–worker hierarchy.
+
+Now we move to reasoning quality.
+
+Today’s topic is:
+DEBATE-BASED REASONING AGENTS.
+
+One agent reasoning alone
+can make mistakes.
+
+But when multiple agents
+argue opposing views,
+errors are reduced.
+
+This is similar to
+peer review in research.
+
+Now let us understand the architecture.
+
+We have:
+a ProAgent,
+a ConAgent,
+and a JudgeAgent.
+
+The ProAgent supports the idea.
+The ConAgent challenges it.
+The JudgeAgent evaluates both.
+
+This leads to more balanced conclusions.
+
+Now let us look at the code.
+
+Each agent produces an argument.
+
+The judge inspects both sides
+and makes a decision.
+
+This pattern is used in:
+AI alignment,
+safety research,
+decision systems,
+and evaluation frameworks.
+
+Debate-based reasoning
+reduces hallucinations
+and overconfidence.
+
+In the next video,
+we will build a self-reflective agent.
+
+This agent will critique its own answers.
+
+Thank you for watching.
+See you in the next video.

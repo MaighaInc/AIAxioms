@@ -1,0 +1,77 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we added citations to RAG responses.
+
+Today we focus on user experience.
+
+Today’s topic is:
+STREAMING RAG RESPONSES.
+
+When you use ChatGPT,
+the answer appears gradually.
+
+This is called streaming.
+
+Streaming makes systems feel faster,
+more responsive,
+and more human.
+
+Now let us understand
+why streaming matters.
+
+Even if a response
+takes two seconds to generate,
+users prefer to see output immediately.
+
+Streaming improves perceived speed.
+
+Now let us look at the pipeline.
+
+First,
+we retrieve relevant documents.
+
+Second,
+we generate the answer.
+
+Instead of waiting
+for the full answer,
+we stream it piece by piece.
+
+Now let us look at the code.
+
+We retrieve relevant chunks.
+
+We combine them
+to form the answer text.
+
+Then we print each word
+with a small delay.
+
+This simulates token streaming.
+
+Real LLMs stream tokens
+as they are generated.
+
+This same idea applies
+to RAG systems.
+
+Streaming is used in:
+chat interfaces,
+assistants,
+and conversational search.
+
+In the next and final video
+of PART 5,
+we will build
+an enterprise knowledge assistant.
+
+This combines everything:
+retrieval,
+metadata,
+citations,
+streaming,
+and safety.
+
+Thank you for watching.
+See you in the final video.

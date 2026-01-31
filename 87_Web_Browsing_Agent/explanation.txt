@@ -1,0 +1,60 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built an autonomous research agent.
+
+Now we make agents interact
+with the live world.
+
+Today’s topic is:
+WEB-BROWSING AI AGENT.
+
+Web-browsing agents allow AI
+to access real-time information.
+
+This is critical because
+LLMs have knowledge cutoffs.
+
+Browsing fills that gap.
+
+Now let us understand the flow.
+
+The agent receives a topic.
+
+It decides which webpage to visit.
+
+It fetches page content.
+
+It extracts relevant information.
+
+Now let us look at the code.
+
+We simulate a browser.
+
+The browser fetches
+content based on a URL.
+
+The agent decides
+which URL matches the topic.
+
+Then it retrieves the content.
+
+In production systems,
+this is replaced by:
+headless browsers,
+HTTP clients,
+and HTML parsers.
+
+Web-browsing agents are used in:
+news aggregation,
+research assistants,
+competitive analysis,
+and monitoring systems.
+
+In the next video,
+we will let agents write code.
+
+That is how coding copilots work.
+
+Thank you for watching.
+See you in the next video.

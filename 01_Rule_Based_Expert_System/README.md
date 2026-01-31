@@ -1,5 +1,6 @@
 Rule-Based Expert System
-========================
+=======================
+
 This project demonstrates a basic AI system that makes decisions
 using predefined rules (if-else conditions).
 
@@ -17,11 +18,13 @@ How to Run:
 
 Expected Output:
 ----------------
-The system will display patient symptoms and give a diagnosis such as:
+The system will display patient symptoms and give a diagnosis
+such as:
 - Flu
 - Common Cold
 - Healthy
 
 Learning Objective:
 -------------------
-Understand how early AI systems worked using human-written rules without any machine learning.
+Understand how early AI systems worked using human-written rules
+without any machine learning.

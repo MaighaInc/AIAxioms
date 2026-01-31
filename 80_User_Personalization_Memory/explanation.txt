@@ -1,0 +1,71 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built memory decay and reinforcement.
+
+Now we use memory
+to personalize AI behavior.
+
+Today’s topic is:
+USER PERSONALIZATION MEMORY.
+
+Personalization is what makes AI
+feel helpful instead of generic.
+
+Let us understand the idea.
+
+Different users have
+different preferences.
+
+Some want Python examples.
+Some prefer short explanations.
+Some like detailed theory.
+
+The AI should adapt.
+
+Now let us look at the approach.
+
+We maintain a user profile.
+
+This profile stores preferences.
+
+Each time the user interacts,
+we update the profile.
+
+Over time,
+the assistant learns what the user likes.
+
+Now let us look at the code.
+
+We define a UserProfile class.
+
+It stores preferences as key-value pairs.
+
+We then define a PersonalizedAssistant.
+
+This assistant detects signals
+in user messages.
+
+If the user mentions Python,
+we store that preference.
+
+If the user asks for short responses,
+we store that too.
+
+Future responses are generated
+using these preferences.
+
+This approach is used in:
+personal assistants,
+recommendation systems,
+and adaptive learning platforms.
+
+In the next video,
+we will persist memory
+across sessions.
+
+This allows AI to remember users
+even after restart.
+
+Thank you for watching.
+See you in the next video.

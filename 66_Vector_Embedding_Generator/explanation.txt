@@ -1,0 +1,97 @@
+Hello guys, welcome back to the channel.
+
+We are officially starting
+PART 5 — RETRIEVAL AUGMENTED GENERATION.
+
+This is one of the most important
+parts of the entire course.
+
+RAG is what allows AI
+to use documents,
+databases,
+and enterprise knowledge.
+
+Before we build chatbots over PDFs,
+we must understand one thing.
+
+Machines do not understand text.
+
+They understand numbers.
+
+Today’s topic is:
+VECTOR EMBEDDING GENERATOR.
+
+An embedding is a numerical
+representation of text.
+
+Similar text produces
+similar vectors.
+
+This is the foundation of:
+semantic search,
+document retrieval,
+and RAG systems.
+
+Now let us understand the intuition.
+
+Imagine each sentence
+is a point in space.
+
+If two sentences
+have similar meaning,
+they appear close together.
+
+Embeddings make this possible.
+
+Now let us look at the code.
+
+First,
+we tokenize the text.
+
+Then we build a vocabulary
+from all documents.
+
+Each unique word
+becomes a dimension.
+
+Then we convert each document
+into a vector.
+
+Each position in the vector
+represents how many times
+a word appears.
+
+This is a simple embedding method.
+
+Modern systems use neural embeddings,
+but the idea is exactly the same.
+
+Text becomes vectors.
+Vectors can be compared.
+Comparison enables retrieval.
+
+Now let us look at the output.
+
+Each document is converted
+into a numeric vector.
+
+These vectors can now be:
+stored,
+searched,
+and compared.
+
+Without embeddings,
+RAG is impossible.
+
+This lesson is the backbone
+of everything coming next.
+
+In the next video,
+we will build a
+VECTOR SEARCH ENGINE
+using FAISS-style logic.
+
+That is where retrieval begins.
+
+Thank you for watching.
+See you in the next video.

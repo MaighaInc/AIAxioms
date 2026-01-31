@@ -1,0 +1,72 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built long-term vector memory.
+
+That memory stored facts.
+
+Today we move to
+event-based memory.
+
+Today’s topic is:
+EPISODIC MEMORY SYSTEM.
+
+Episodic memory stores experiences.
+
+It answers questions like:
+What happened?
+When did it happen?
+What was the context?
+
+This is different from factual memory.
+
+For example:
+Fact memory says:
+The user likes Python.
+
+Episodic memory says:
+Yesterday, the user asked for Python examples.
+
+Now let us understand the structure.
+
+Each memory episode contains:
+a description,
+a timestamp,
+and context.
+
+When a new query arrives,
+we search across episodes
+using vector similarity.
+
+This allows the AI
+to recall relevant past events.
+
+Now let us look at the code.
+
+We store events
+with timestamps.
+
+We convert both the query
+and events into vectors.
+
+Then we compute similarity
+to find the most relevant events.
+
+This approach is used in:
+autonomous agents,
+task planning systems,
+and reflective AI.
+
+Episodic memory allows AI
+to reason over past actions.
+
+In the next video,
+we will introduce
+MEMORY DECAY AND REINFORCEMENT.
+
+This allows AI to forget
+unimportant memories
+and strengthen useful ones.
+
+Thank you for watching.
+See you in the next video.

@@ -1,0 +1,56 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a web-browsing agent.
+
+Now we enter
+one of the most powerful applications of AI.
+
+Today’s topic is:
+CODE-WRITING AI AGENT.
+
+This is how coding assistants work.
+
+Now let us understand the pipeline.
+
+First,
+the agent receives a coding task.
+
+Second,
+it plans what needs to be written.
+
+Third,
+it generates code.
+
+In advanced systems,
+this loop repeats
+until the code works correctly.
+
+Now let us look at the code.
+
+The plan method
+interprets the task.
+
+The write_code method
+returns Python code.
+
+This example is simple,
+but the idea scales.
+
+Modern agents:
+generate full applications,
+write tests,
+and refactor code.
+
+This architecture powers:
+GitHub Copilot,
+Cursor,
+and coding copilots.
+
+In the next video,
+we will let agents debug code.
+
+That is how AI becomes a real developer assistant.
+
+Thank you for watching.
+See you in the next video.

@@ -1,0 +1,59 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a collaborative agent team.
+
+Now we add structure.
+
+Today’s topic is:
+MANAGER–WORKER AGENT HIERARCHY.
+
+In real organizations,
+not everyone does everything.
+
+Some people plan.
+Some execute.
+
+AI systems follow the same idea.
+
+Now let us understand the roles.
+
+The ManagerAgent:
+receives the goal,
+plans tasks,
+assigns work.
+
+The WorkerAgents:
+execute assigned tasks.
+
+This separation allows:
+scalability,
+parallelism,
+and control.
+
+Now let us look at the code.
+
+The manager breaks a goal
+into tasks.
+
+Each task is assigned
+to a worker.
+
+Workers return results.
+
+The manager tracks completion.
+
+This pattern is used in:
+AutoGPT,
+CrewAI,
+LangGraph,
+enterprise workflows.
+
+In the next video,
+we will explore debate-based agents.
+
+Agents will argue
+to reach better decisions.
+
+Thank you for watching.
+See you in the next video.

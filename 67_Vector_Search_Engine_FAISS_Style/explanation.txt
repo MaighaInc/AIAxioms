@@ -1,0 +1,81 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we learned how to convert text
+into vector embeddings.
+
+Today we answer the next question.
+
+Once text is converted into vectors,
+how do we search it?
+
+Today’s topic is:
+VECTOR SEARCH ENGINE.
+
+This is the heart of RAG systems.
+
+Vector search allows us
+to find documents
+based on meaning,
+not keyword matching.
+
+Now let us understand the idea.
+
+Each document is a vector.
+
+The query is also converted
+into a vector.
+
+We then compare the query vector
+with every document vector.
+
+The documents with the highest similarity
+are the most relevant.
+
+This is semantic search.
+
+Now let us look at the code.
+
+We reuse the embedding logic
+from the previous lesson.
+
+Then we calculate cosine similarity.
+
+Cosine similarity measures
+the angle between two vectors.
+
+If the angle is small,
+the meaning is similar.
+
+We compute similarity
+between the query
+and every document.
+
+Then we sort the results
+and return the top matches.
+
+This is exactly what FAISS does,
+but at massive scale.
+
+FAISS uses optimized math
+and indexing
+to perform this search
+over millions of vectors.
+
+But conceptually,
+the logic is identical.
+
+Vector search is used in:
+RAG chatbots,
+recommendation systems,
+document retrieval,
+and enterprise knowledge search.
+
+In the next video,
+we will ingest real documents
+by building a PDF ingestion pipeline.
+
+That is where RAG becomes real.
+
+Thank you for watching.
+See you in the next video.

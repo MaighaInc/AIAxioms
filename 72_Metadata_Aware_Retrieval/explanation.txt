@@ -1,0 +1,90 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a hybrid search engine.
+
+Today we make retrieval
+enterprise-ready.
+
+Today’s topic is:
+METADATA-AWARE RETRIEVAL.
+
+In real organizations,
+not all documents are equal.
+
+Some belong to HR.
+Some to finance.
+Some are confidential.
+
+RAG systems must respect this.
+
+Metadata is information
+about the document,
+not inside the document.
+
+Examples include:
+department,
+author,
+date,
+access level.
+
+Now let us understand why
+metadata matters.
+
+Without metadata filtering,
+a user may see documents
+they should not access.
+
+Or irrelevant documents
+may pollute retrieval.
+
+Metadata filtering ensures:
+security,
+relevance,
+and precision.
+
+Now let us look at the pipeline.
+
+First,
+we receive a user query.
+
+Second,
+we apply metadata filters.
+
+This removes documents
+that do not match context.
+
+Only then
+do we perform vector search.
+
+This improves both
+performance and accuracy.
+
+Now let us look at the code.
+
+Each document has:
+text and metadata.
+
+We first filter documents
+based on metadata conditions.
+
+Then we build embeddings
+only for allowed documents.
+
+Finally,
+we compute similarity
+and return results.
+
+This architecture is used in:
+enterprise search,
+internal assistants,
+and regulated industries.
+
+In the next video,
+we will enhance RAG outputs
+by adding citations.
+
+This builds trust and transparency.
+
+Thank you for watching.
+See you in the next video.

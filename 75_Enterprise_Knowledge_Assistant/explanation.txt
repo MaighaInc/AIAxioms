@@ -1,0 +1,102 @@
+Hello guys, welcome back to the channel.
+
+This is the final video
+of PART 5 — RAG.
+
+Today we build the
+ENTERPRISE KNOWLEDGE ASSISTANT.
+
+This system represents
+how real companies use GenAI.
+
+Let us review the problem.
+
+Organizations have:
+policies,
+reports,
+documents,
+and internal knowledge.
+
+LLMs alone cannot access this data.
+
+RAG solves that.
+
+Now let us understand
+the full architecture.
+
+First,
+documents are ingested and chunked.
+
+Second,
+text is converted into embeddings.
+
+Third,
+documents are stored
+with metadata.
+
+Fourth,
+when a user asks a question,
+we apply metadata filters.
+
+Fifth,
+we retrieve relevant chunks
+using vector similarity.
+
+Sixth,
+we generate an answer
+from retrieved content.
+
+Seventh,
+we stream the answer
+to the user.
+
+Finally,
+we attach citations
+for transparency.
+
+Now let us look at the code.
+
+This program combines:
+retrieval,
+metadata filtering,
+streaming,
+and citations.
+
+The assistant only retrieves
+documents from the correct department.
+
+It streams answers word by word.
+
+It clearly shows
+where information came from.
+
+This is exactly how
+enterprise AI assistants work.
+
+Such systems are used for:
+HR assistants,
+finance analysis,
+technical documentation,
+and internal support.
+
+With this lesson,
+you have completed PART 5.
+
+You now understand
+how RAG works
+from first principles
+to enterprise deployment.
+
+This knowledge puts you
+far ahead of most practitioners.
+
+In the next part,
+we can move to:
+agents,
+memory,
+autonomous workflows,
+and advanced architectures.
+
+Thank you for watching.
+Congratulations on completing
+PART 5 — RAG.

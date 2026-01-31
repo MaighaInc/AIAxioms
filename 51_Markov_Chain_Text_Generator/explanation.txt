@@ -1,0 +1,79 @@
+Hello guys, welcome back to the channel.
+
+We are officially starting
+PART 4 — GENERATIVE AI.
+
+This part explains how machines
+create new content.
+
+Before neural networks,
+before transformers,
+text generation already existed.
+
+Today’s topic is:
+MARKOV CHAIN TEXT GENERATOR.
+
+This is one of the earliest
+text generation techniques.
+
+Now let us understand the idea.
+
+A Markov Chain assumes one simple rule:
+the next word depends only
+on the current word.
+
+It does not look at the entire sentence.
+It only looks one step ahead.
+
+This may sound simple,
+but it is very powerful.
+
+Now let us look at the code.
+
+We train the model
+using sample text.
+
+The model learns word transitions.
+
+For example:
+if the word is artificial,
+the next word is often intelligence.
+
+During generation,
+we start with a word.
+
+Then we randomly choose
+the next word
+based on learned transitions.
+
+This process repeats.
+
+The result is new text
+that looks similar
+to the training data.
+
+This is true text generation.
+
+It is not copying sentences.
+It is generating new sequences.
+
+Markov models were used
+in early chatbots,
+games,
+and creative writing tools.
+
+They have limitations.
+
+They cannot understand long context.
+They often produce nonsense.
+
+To fix this,
+we move to neural networks.
+
+In the next video,
+we will build a
+character-level language model,
+which learns sequences using neural networks.
+
+Thank you for watching.
+See you in the next video.

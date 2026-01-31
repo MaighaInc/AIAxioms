@@ -1,0 +1,64 @@
+Hello guys, welcome back to the channel.
+
+In the previous video,
+we built a planning agent using ReAct.
+
+Now we go one level higher.
+
+Today’s topic is:
+AUTONOMOUS RESEARCH AGENT.
+
+This agent does not wait
+for detailed instructions.
+
+You give it a topic,
+and it figures out:
+what to search,
+how to search,
+and how to summarize.
+
+Now let us understand the pipeline.
+
+Step one:
+the agent receives a topic.
+
+Step two:
+it plans research questions.
+
+Step three:
+it searches for answers.
+
+Step four:
+it consolidates findings.
+
+Step five:
+it produces a final summary.
+
+Now let us look at the code.
+
+The plan method breaks a topic
+into meaningful questions.
+
+The research method
+searches each question.
+
+The summarize method
+combines results into insight.
+
+This is how research copilots work.
+
+Such agents are used in:
+market research,
+technical analysis,
+academic assistance,
+and competitive intelligence.
+
+In the next video,
+we will allow agents
+to browse the web.
+
+This brings real-time information
+into agent workflows.
+
+Thank you for watching.
+See you in the next video.
